@@ -1,6 +1,7 @@
 
 // Bootstrap Variables
 $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+$grid-gutter-width: 10px;
 
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
@@ -128,16 +129,16 @@ main
 #about {
   height: 600px;
   width: 100%;
-  background-color: #49111C;
+  background-color: #F2F4F3;
 }
 .about-title {
-  color: #F2F4F3;
+  color: #7A6263;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 50px;
 }
 .about-summary {
-  color: #F2F4F3;
+  color: #7A6263;
   text-align: center;
   margin-left: 250px;
   margin-right: 250px;
@@ -156,13 +157,13 @@ main
   width: 100%;
 }
 .skills-title {
-  color: #0A0908;
+  color: #F2F4F3;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 30px;
 }
 .skills-summary-one {
-  color: #0A0908;
+  color: #F2F4F3;
   text-align: center;
   margin-top: 50px;
   margin-left: 250px;
@@ -199,20 +200,87 @@ main
 
 
 #portfolio {
-  height: 600px;
+  height: 680px;
   width: 100%;
+  background-color: #F2F4F3;
 }
 .portfolio-title {
-  color: #0A0908;
+  color: #7A6263;
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 30px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.project-one {
+  width: 280px;
+  height: 200px;
+  border-radius: 5px;
+  background: url('../images/color-clock.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-left: 36px;
+  -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+}
+.project-two {
+  width: 280px;
+  height: 200px;
+  border-radius: 5px;
+  background: url('../images/surf-and-paddle.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-left: 22px;
+  -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+}
+.project-three {
+  width: 280px;
+  height: 200px;
+  border-radius: 5px;
+  background: url('../images/github-clone.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-left: 10px;
+  -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+}
+.project-four {
+  width: 280px;
+  height: 200px;
+  border-radius: 5px;
+  background: url('../images/tshirts.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-left: -5px;
+  -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
+}
+
+.hover-effect {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 
 
 #contact {
-  height: 600px;
+  background: linear-gradient(rgba(67, 91, 104, 0.5), rgba(67, 91, 104, 0.5)), url('../images/contact-me.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 680px;
+  width: 100%;
+}
+.contact-title {
+  color: #F2F4F3;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.contact-picture {
+  text-align: center;
 }
 
 
