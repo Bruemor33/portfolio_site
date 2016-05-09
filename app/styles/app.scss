@@ -207,7 +207,7 @@ main
 .portfolio-title {
   color: #7A6263;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 50px;
 }
 .project-one {
@@ -223,31 +223,31 @@ main
   box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
 }
 .project-two {
-  width: 280px;
+  width: 360px;
   height: 200px;
   border-radius: 5px;
   background: url('../images/surf-and-paddle.png');
   background-position: 50% 50%;
   background-size: cover;
-  margin-left: 22px;
+  margin-left: 60px;
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
 }
 .project-three {
-  width: 280px;
+  width: 360px;
   height: 200px;
   border-radius: 5px;
   background: url('../images/github-clone.png');
   background-position: 50% 50%;
   background-size: cover;
-  margin-left: 10px;
+  margin-left: 27px;
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
 }
 .project-four {
-  width: 280px;
+  width: 360px;
   height: 200px;
   border-radius: 5px;
   background: url('../images/tshirts.png');
@@ -257,6 +257,27 @@ main
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
+}
+.project-description-one {
+  color: #7A6263;
+  margin-top: 30px;
+  margin-left: 90px;
+  width: 300px;
+  text-align: center;
+}
+.project-description-two {
+  color: #7A6263;
+  margin-top: 30px;
+  margin-left: 58px;
+  width: 300px;
+  text-align: center;
+}
+.project-description-three {
+  color: #7A6263;
+  margin-top: 30px;
+  margin-left: 28px;
+  width: 300px;
+  text-align: center;
 }
 
 .hover-effect {
