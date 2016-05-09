@@ -2,6 +2,8 @@ var $ = require('jquery');
 
 console.log("Hello World!");
 
+
+//Scroll Navigation
 $(document).ready(function(){
 
   //navigation click actions
@@ -37,6 +39,17 @@ function scrollToID(id, speed){
     mainNav.removeClass("open");
   }
 }
+
+//Portfolio Hover Effects
+$('.project-one').hover(function(){
+  $(this).addClass('hover-effect');
+}, function(){
+  $(this).removeClass('hover-effect');
+});
+
+
+
+
 
 if(typeof console === "undefined") {
   console = {
