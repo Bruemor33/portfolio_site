@@ -14,7 +14,7 @@ $(document).ready(function(){
   //scroll to top functionality
   $('.scroll-top').on('click', function(event){
     event.preventDefault();
-    $('hrml, body').animate({scrollTop:0}, 'slow')
+    $('hrml,body').animate({scrollTop:0}, 'slow')
   });
 
   //mobile nav toggle
@@ -33,7 +33,7 @@ function scrollToID(id, speed){
   var mainNav = $('#main-nav');
   $('html,body').animate({scrollTop:targetOffset}, speed);
   if(mainNav.hasClass("open")) {
-    mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+    mainNav.css("height", "0px").removeClass("in").addClass("collapse");
     mainNav.removeClass("open");
   }
 }

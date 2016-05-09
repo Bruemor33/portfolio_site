@@ -20,6 +20,13 @@ img {
   padding-left: 0;
   padding-right: 0;
 }
+.col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.row {
+  margin-left: 0;
+}
 
 
 /*******************************************************************************************
@@ -28,29 +35,52 @@ Header
 
 
 
-
 header {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+.navigation {
+  position: fixed;
   z-index: 10;
+  background-color: rgba(10, 9, 8, 0.8);
+  width: 100%;
+  height: 50px;
 }
-header .navbar-brand {
-  font-weight: 900;
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
-header .navbar {
-  margin: 0;
-  border: none;
+
+.scroll-link {
+  display: inline;
 }
+
+.brand {
+  display: inline-block;
+}
+.navigation-elements {
+  display: inline-block;
+}
+.navigation-elements li {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navigation-item {
+  display: inline;
+}
+
 .page-section {
   width: 100%;
-  min-height: 800px;
-  padding: 50px 0;
-  border-bottom: 10px solid #fff;
+  height: 680px;
 }
 .page-section h1 {
   font-size: 4em;
-  margin: 50px 0;
 }
 .page-section p {
   font-weight: 200;
@@ -65,13 +95,32 @@ main
 
 
 
+//
+// #parallax {
+//   perspective: 1px;
+//   height: 100vh;
+//   overflow-x: hidden;
+//   overflow-y: auto;
+// }
+
+
+
 #title {
-  background: url('../images/programming.jpg');
-  background-position: top;
+  background: linear-gradient(rgba(67, 91, 104, 0.5), rgba(67, 91, 104, 0.5)), url('../images/programming.jpg');
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 680px;
   width: 100%;
+}
+.title-name {
+  text-align: center;
+  margin-top: 270px;
+  color: #fff;
+}
+.title-description {
+  text-align: center;
+  color: #fff;
 }
 
 
@@ -79,13 +128,72 @@ main
 #about {
   height: 600px;
   width: 100%;
+  background-color: #49111C;
+}
+.about-title {
+  color: #F2F4F3;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.about-summary {
+  color: #F2F4F3;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-top: 50px;
+  border-top: 1px solid #B79E87;
 }
 
 
 
 #skills {
-  height: 600px;
+  background: linear-gradient(rgba(183, 158, 135, 0.4), rgba(183, 158, 135, 0.5)), url('../images/programming-2.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 680px;
   width: 100%;
+}
+.skills-title {
+  color: #0A0908;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.skills-summary-one {
+  color: #0A0908;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.skill-logos {
+  margin-top: 80px;
+}
+.html {
+  border: 1px solid #000;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.css {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #000;
+  border-radius: 50px;
+}
+.javascript {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #000;
+  border-radius: 50px;
+}
+.react {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #000;
+  border-radius: 50px;
 }
 
 
@@ -93,6 +201,12 @@ main
 #portfolio {
   height: 600px;
   width: 100%;
+}
+.portfolio-title {
+  color: #0A0908;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 

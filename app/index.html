@@ -11,73 +11,78 @@
     <div class="container-fluid">
 
       <header class="col-md-12">
-        <nav id="main-nav" class="navbar" role="navigation">
-          <div class="navbar-header">
-            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nave">
-              <span class="sr-only">Toggle Navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a href="#" class="navbar-brand scroll-top">Demo</a>
-          </div>
-          <div id="main-nav" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="#" class="scroll-link" data-id="about">About</a></li>
-              <li><a href="#" class="scroll-link" data-id="skills">Skills</a></li>
-              <li><a href="#" class="scroll-link" data-id="portfolio">Portfolio</a></li>
-              <li><a href="#" class="scroll-link" data-id="contact">Contact</a></li>
+        <nav class="navigation" role="navigation">
+          <div id="main-nav" class="navbar">
+            <a href="#" class="brand scroll-top">Andrew</a>
+            <ul class="navigation-elements">
+              <li class="navigation-item"><a href="#" class="scroll-link" data-id="about">About</a></li>
+              <li class="navigation-item"><a href="#" class="scroll-link" data-id="skills">Skills</a></li>
+              <li class="navigation-item"><a href="#" class="scroll-link" data-id="portfolio">Portfolio</a></li>
+              <li class="navigation-item"><a href="#" class="scroll-link" data-id="contact">Contact</a></li>
             </ul>
           </div>
         </nav>
       </header>
 
-      <main class="col-md-12">
+      <main id="parallax" class="col-md-12">
         <div class="page-section row">
           <div id="title" class="col-md-12">
-            <h1>Andrew Rymer</h1>
-            <h5>Front-End Engineer</h5>
+            <h1 class="title-name">Andrew Rymer</h1>
+            <h5 class="title-description">Front-End Engineer</h5>
           </div>
         </div>
         <div id="about" class="page-section row">
           <div class="col-md-12">
-            <h1>What I Do</h1>
-            <p>I am a recent graduate of The Iron Yard's Front-End Engineering program where I most importantly learned how to think like a developer. I really fell in love with the challenge programming offers - the time from when the idea is formed, all the way until completion and deployment. The thing that drew me to programming the most was the ability of developers to identify a problem, outline an approach to solving it, and implementing those plans in a creative way. I am beyond excited to have gained this skillset and look forward to getting out of bed each morning to tackle another problem in an abstract and creative way.</p>
+            <h1 class="about-title">What I Do</h1>
+            <p class="about-summary">I am a recent graduate of The Iron Yard's Front-End Engineering program where I most importantly learned how to think like a developer. I really fell in love with the challenge programming offers - the time from when the idea is formed, all the way until completion and deployment. The thing that drew me to programming the most was the ability of developers to identify a problem, outline an approach to solving it, and implementing those plans in a creative way. I am beyond excited to have gained this skillset and look forward to getting out of bed each morning to tackle another problem in an abstract and creative way.</p>
           </div>
         </div>
         <div id="skills" class="page-section row">
           <div class="col-md-12">
-            <h1>Aquired Skill Set</h1>
-            <p>During my time at The Iron Yard I developed a fondness for page layout with HTML, diving headlong into the mad world that is CSS, and immersing myself in JavaScript. I've built a pixel perfect static site based on a photoshop mock-up, basic interactive UI elements, as well as a fully blown dynamically updating web application</p>
-            <p>During my time at The Iron Yard I found my focus turn from Layout and Design to interactivity and functionality development. Durring my last month I found myself having to solve problems such as the data structure needed for my final project. It opened my eyes to a hunger to learn Python with Django</p>
+            <h1 class="skills-title">Aquired Skill Set</h1>
+            <p class="skills-summary-one">During my time at The Iron Yard I developed a fondness for page layout with HTML, diving headlong into the mad world that is CSS, and immersing myself in JavaScript. I've built a pixel perfect static site based on a photoshop mock-up, basic interactive UI elements, as well as a fully blown dynamically updating web application</p>
+            <div class="skill-logos">
+              <div class="col-md-3">
+                <div class="html"></div>
+              </div>
+              <div class="col-md-3">
+                <div class="css"></div>
+              </div>
+              <div class="col-md-3">
+                <div class="javascript"></div>
+              </div>
+              <div class="col-md-3">
+                <div class="react"></div>
+              </div>
+            </div>
           </div>
         </div>
         <div id="portfolio" class="page-section row">
           <div class="col-md-12">
-            <h1>Portfolio</h1>
+            <h1 class="portfolio-title">Portfolio</h1>
           </div>
           <div class="col-md-6">
-            <div>Project Box Here</div>
+            <div class="project-one">Project Box Here</div>
           </div>
           <div class="col-md-6">
-            <div>Project Box Here</div>
+            <div class="project-two">Project Box Here</div>
           </div>
           <div class="col-md-6">
-            <div>Project Box Here</div>
+            <div class="project-three">Project Box Here</div>
           </div>
           <div class="col-md-6">
-            <div>Project Box Here</div>
+            <div class="project-four">Project Box Here</div>
           </div>
         </div>
         <div id="contact" class="page-section row">
           <div class="col-md-12">
-            <h1>Contact Me</h1>
+            <h1 class="contact-title">Contact Me</h1>
           </div>
           <div class="col-md-12">
-            <h3>Headshot here</h3>
+            <h3 class="contact-picture">Headshot here</h3>
           </div>
           <div class="col-md-4">
-            <div>Email</div>
+            <div class="contact-email">Email</div>
           </div>
           <div class="col-md-4">
             <div class="github">GitHub</div>
@@ -85,7 +90,7 @@
             <div class="twitter">Twitter</div>
           </div>
           <div class="col-md-4">
-            <div>Resume</div>
+            <div class="contact-resume">Resume</div>
           </div>
         </div>
       </main>
@@ -93,7 +98,7 @@
       <footer class="col-md-12">
         <div class="row">
           <div class="col-md-12">
-            <h4>copywrite</h4>
+            <h4 class="footer-copywrite">copywrite</h4>
           </div>
         </div>
       </footer>
