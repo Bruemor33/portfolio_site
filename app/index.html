@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>portfolio site</title>
+    <title>RYMER</title>
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
@@ -11,43 +11,48 @@
     <div class="container-fluid">
 
       <header class="col-md-12">
-        <nav class="row">
-          <div class="col-md-6">
-            <h4>Andrew Rymer</h4>
+        <nav id="main-nav" class="navbar" role="navigation">
+          <div class="navbar-header">
+            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nave">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand scroll-top">Demo</a>
           </div>
-          <div class="col-md-2">
-            <h4>About</h4>
-          </div>
-          <div class="col-md-2">
-            <h4>Portfolio</h4>
-          </div>
-          <div class="col-md-2">
-            <h4>Contact</h4>
+          <div id="main-nav" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#" class="scroll-link" data-id="about">About</a></li>
+              <li><a href="#" class="scroll-link" data-id="skills">Skills</a></li>
+              <li><a href="#" class="scroll-link" data-id="portfolio">Portfolio</a></li>
+              <li><a href="#" class="scroll-link" data-id="contact">Contact</a></li>
+            </ul>
           </div>
         </nav>
       </header>
 
       <main class="col-md-12">
-        <div class="row">
-          <div class="col-md-12">
+        <div class="page-section row">
+          <div id="title" class="col-md-12">
             <h1>Andrew Rymer</h1>
             <h5>Front-End Engineer</h5>
           </div>
         </div>
-        <div class="row">
+        <div id="about" class="page-section row">
           <div class="col-md-12">
             <h1>What I Do</h1>
             <p>I am a recent graduate of The Iron Yard's Front-End Engineering program where I most importantly learned how to think like a developer. I really fell in love with the challenge programming offers - the time from when the idea is formed, all the way until completion and deployment. The thing that drew me to programming the most was the ability of developers to identify a problem, outline an approach to solving it, and implementing those plans in a creative way. I am beyond excited to have gained this skillset and look forward to getting out of bed each morning to tackle another problem in an abstract and creative way.</p>
           </div>
         </div>
-        <div class="row">
+        <div id="skills" class="page-section row">
           <div class="col-md-12">
             <h1>Aquired Skill Set</h1>
             <p>During my time at The Iron Yard I developed a fondness for page layout with HTML, diving headlong into the mad world that is CSS, and immersing myself in JavaScript. I've built a pixel perfect static site based on a photoshop mock-up, basic interactive UI elements, as well as a fully blown dynamically updating web application</p>
             <p>During my time at The Iron Yard I found my focus turn from Layout and Design to interactivity and functionality development. Durring my last month I found myself having to solve problems such as the data structure needed for my final project. It opened my eyes to a hunger to learn Python with Django</p>
           </div>
         </div>
-        <div class="row">
+        <div id="portfolio" class="page-section row">
           <div class="col-md-12">
             <h1>Portfolio</h1>
           </div>
@@ -64,7 +69,7 @@
             <div>Project Box Here</div>
           </div>
         </div>
-        <div class="row">
+        <div id="contact" class="page-section row">
           <div class="col-md-12">
             <h1>Contact Me</h1>
           </div>

@@ -15,3 +15,106 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 img {
   max-width: 100%;
 }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+/*******************************************************************************************
+Header
+*******************************************************************************************/
+
+
+
+
+header {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  z-index: 10;
+}
+header .navbar-brand {
+  font-weight: 900;
+}
+header .navbar {
+  margin: 0;
+  border: none;
+}
+.page-section {
+  width: 100%;
+  min-height: 800px;
+  padding: 50px 0;
+  border-bottom: 10px solid #fff;
+}
+.page-section h1 {
+  font-size: 4em;
+  margin: 50px 0;
+}
+.page-section p {
+  font-weight: 200;
+}
+
+
+
+
+/*******************************************************************************************
+main
+*******************************************************************************************/
+
+
+
+#title {
+  background: url('../images/programming.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+
+
+#about {
+  height: 600px;
+  width: 100%;
+}
+
+
+
+#skills {
+  height: 600px;
+  width: 100%;
+}
+
+
+
+#portfolio {
+  height: 600px;
+  width: 100%;
+}
+
+
+
+#contact {
+  height: 600px;
+}
+
+
+
+
+/*******************************************************************************************
+Header
+*******************************************************************************************/
+
+
+
+
+
+
+
+
+/*******************************************************************************************
+Header
+*******************************************************************************************/
