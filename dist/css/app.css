@@ -5817,6 +5817,9 @@ button.close {
 img {
   max-width: 100%; }
 
+a {
+  text-decoration: none; }
+
 .container-fluid {
   padding-left: 0;
   padding-right: 0; }
@@ -5845,24 +5848,55 @@ header {
 
 a {
   text-decoration: none;
-  color: #fff; }
+  color: #fff;
+  font-family: 'Raleway', sans-serif; }
 
 .scroll-link {
   display: inline; }
 
 .brand {
-  display: inline-block; }
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 3px;
+  font-size: 30px;
+  font-weight: 300;
+  text-decoration: none; }
+
+.brand a {
+  text-decoration: none;
+  color: #F2F4F3; }
 
 .navigation-elements {
-  display: inline-block; }
+  display: inline-block;
+  float: right;
+  margin-right: 100px;
+  margin-top: 13px; }
 
 .navigation-elements li {
   list-style: none;
   text-decoration: none;
   color: #fff; }
 
+.navigation-elements a {
+  text-decoration: none;
+  color: #F2F4F3;
+  font-weight: 300;
+  font-size: 15px; }
+
 .navigation-item {
-  display: inline; }
+  display: inline;
+  margin-left: 35px; }
+
+.navigation-item:hover {
+  color: #000;
+  background-color: #F2F4F3;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px; }
+
+.navigation-item a:hover {
+  color: #000; }
 
 .page-section {
   width: 100%;
@@ -5888,11 +5922,16 @@ main
 .title-name {
   text-align: center;
   margin-top: 270px;
-  color: #fff; }
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
 
 .title-description {
   text-align: center;
-  color: #fff; }
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 25px; }
 
 #about {
   height: 600px;
@@ -5903,7 +5942,8 @@ main
   color: #7A6263;
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  font-family: 'Raleway', sans-serif; }
 
 .about-summary {
   color: #7A6263;
@@ -5911,7 +5951,8 @@ main
   margin-left: 250px;
   margin-right: 250px;
   padding-top: 50px;
-  border-top: 1px solid #B79E87; }
+  border-top: 1px solid #B79E87;
+  font-family: 'Raleway', sans-serif; }
 
 #skills {
   background: linear-gradient(rgba(183, 158, 135, 0.4), rgba(183, 158, 135, 0.5)), url("../images/programming-2.jpg");
@@ -5925,41 +5966,44 @@ main
   color: #F2F4F3;
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
 
 .skills-summary-one {
   color: #F2F4F3;
   text-align: center;
   margin-top: 50px;
   margin-left: 250px;
-  margin-right: 250px; }
+  margin-right: 250px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
 
 .skill-logos {
   margin-top: 80px; }
 
 .html {
-  border: 1px solid #000;
-  height: 100px;
-  width: 100px;
-  border-radius: 50px; }
+  height: 118px;
+  width: 118px;
+  margin-left: 200px; }
 
 .css {
-  height: 100px;
-  width: 100px;
-  border: 1px solid #000;
-  border-radius: 50px; }
+  position: relative;
+  top: 6px;
+  height: 80px;
+  width: 80px;
+  margin-left: 155px; }
 
 .javascript {
+  position: relative;
+  top: 10px;
   height: 100px;
   width: 100px;
-  border: 1px solid #000;
-  border-radius: 50px; }
+  margin-left: 80px; }
 
 .react {
   height: 100px;
-  width: 100px;
-  border: 1px solid #000;
-  border-radius: 50px; }
+  width: 100px; }
 
 #portfolio {
   height: 680px;
@@ -5970,7 +6014,9 @@ main
   color: #7A6263;
   text-align: center;
   margin-top: 60px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
 
 .project-one {
   width: 280px;
@@ -6025,21 +6071,27 @@ main
   margin-top: 30px;
   margin-left: 90px;
   width: 300px;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
 
 .project-description-two {
   color: #7A6263;
   margin-top: 30px;
   margin-left: 58px;
   width: 300px;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
 
 .project-description-three {
   color: #7A6263;
   margin-top: 30px;
   margin-left: 28px;
   width: 300px;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
 
 .github-spacing {
   margin-bottom: 20px; }
@@ -6048,7 +6100,7 @@ main
   background-color: rgba(0, 0, 0, 0.7); }
 
 #contact {
-  background: linear-gradient(rgba(67, 91, 104, 0.5), rgba(67, 91, 104, 0.5)), url("../images/contact-me.jpg");
+  background: linear-gradient(rgba(67, 91, 104, 0.7), rgba(67, 91, 104, 0.7)), url("../images/contact-me.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6059,7 +6111,9 @@ main
   color: #F2F4F3;
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
 
 .contact-picture {
   background: url("../images/headshot.jpg");
@@ -6068,39 +6122,91 @@ main
   background-size: cover;
   height: 100px;
   width: 100px;
-  border: 1px solid #000;
   border-radius: 50px;
-  margin-left: 590px; }
+  margin-left: 590px;
+  margin-bottom: 60px; }
 
 .email-container {
-  padding-left: 300px; }
+  padding-left: 280px;
+  padding-top: 10px; }
+
+.email-container a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: #F2F4F3; }
+
+.email-link {
+  margin-left: 50px; }
+
+.contact-email {
+  margin-top: 10px; }
 
 .social-container {
-  padding-left: 173px; }
+  padding-left: 105px; }
 
 .resume-container {
-  padding-left: 120px; }
+  padding-left: 85px;
+  margin-top: 10px; }
+
+.resume-container a {
+  text-decoration: none;
+  color: #f2f4f3;
+  padding-left: 12px; }
+
+.contact-resume {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #F2F4F3; }
 
 .github {
   display: inline-block;
   margin-right: 30px;
-  height: 80px;
-  width: 80px;
-  border: 1px solid #fff;
-  border-radius: 40px;
-  padding-left: 20px;
-  padding-top: 20px; }
+  height: 50px;
+  width: 50px;
+  background-color: #B79E87;
+  border-radius: 25px;
+  padding-left: 13px;
+  padding-top: 12px; }
+
+.github a {
+  text-decoration: none;
+  color: #435B68; }
 
 .linkedin {
   display: inline-block;
-  margin-right: 30px; }
+  margin-right: 30px;
+  height: 50px;
+  width: 50px;
+  background-color: #B79E87;
+  border-radius: 25px;
+  padding-left: 13px;
+  padding-top: 10px; }
+
+.linkedin a {
+  text-decoration: none;
+  color: #435B68; }
 
 .twitter {
-  display: inline-block; }
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: #B79E87;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-top: 10px; }
+
+.twitter a {
+  text-decoration: none;
+  color: #435B68; }
 
 /*******************************************************************************************
 Header
 *******************************************************************************************/
+.footer-copywrite {
+  text-align: center; }
+
 /*******************************************************************************************
 Header
 *******************************************************************************************/
