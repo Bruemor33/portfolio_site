@@ -208,7 +208,7 @@ main
   color: #7A6263;
   text-align: center;
   margin-top: 60px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .project-one {
   width: 280px;
@@ -279,6 +279,9 @@ main
   width: 300px;
   text-align: center;
 }
+.github-spacing {
+  margin-bottom: 20px;
+}
 
 .hover-effect {
   background-color: rgba(0, 0, 0, 0.7);
@@ -301,7 +304,41 @@ main
   margin-bottom: 30px;
 }
 .contact-picture {
-  text-align: center;
+  background: url('../images/headshot.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #000;
+  border-radius: 50px;
+  margin-left: 590px;
+}
+.email-container {
+  padding-left: 300px;
+}
+.social-container {
+  padding-left: 173px;
+}
+.resume-container {
+  padding-left: 120px;
+}
+.github {
+  display: inline-block;
+  margin-right: 30px;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.linkedin {
+  display: inline-block;
+  margin-right: 30px;
+}
+.twitter {
+  display: inline-block;
 }
 
 
