@@ -92,22 +92,142 @@ Skills
     margin-left: 80px; } }
 @media (max-width: 768px) {
   #skills {
-    height: 680px; }
+    height: 980px; }
+
+  .html-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
 
   .html {
     margin-left: 10px;
+    display: inline-block; }
+
+  .css-container {
+    width: 100px;
+    margin-right: 0px;
     display: inline-block; }
 
   .css {
     margin-left: 10px;
     display: inline-block; }
 
+  .javascript-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
   .javascript {
     margin-left: 10px;
     display: inline-block; }
 
+  .jquery-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .jquery {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .underscore-container {
+    width: 300px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .underscore {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .react-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
   .react {
-    display: inline-block; } }
+    display: inline-block; }
+
+  .backbone-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .backbone {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .parse-container {
+    width: 300px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .parse {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .sass-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .sass {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .git-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .git {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .handlebars-container {
+    width: 200px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .handlebars {
+    margin-left: 10px;
+    height: 100px;
+    width: 200px; }
+
+  .photoshop-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .photoshop {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .illustrator-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .illustrator {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .indesign-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .indesign {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; } }
 /**************************************************************************************************
 Portfolio
 **************************************************************************************************/
