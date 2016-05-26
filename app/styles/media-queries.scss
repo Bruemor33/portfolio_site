@@ -1,0 +1,347 @@
+
+
+
+/**************************************************************************************************
+Heading
+**************************************************************************************************/
+
+
+
+
+@media(max-width: 2560px){
+
+  .page-section {
+    height: 750px;
+  }
+  #title {
+    height: 700px;
+  }
+  .title-name {
+    margin-top: 320px;
+  }
+
+}
+
+@media(max-width: 1440px){
+
+  .page-section {
+    height: 635px;
+  }
+  #title {
+    height: 700px;
+  }
+  .title-name {
+    margin-top: 290px;
+  }
+}
+
+@media(max-width: 768px){
+
+  .page-section {
+    height: 700px;
+  }
+  #title {
+    height: 700px;
+  }
+  .title-name {
+    margin-top: 0px;
+    padding-top: 300px;
+  }
+}
+
+
+
+
+/**************************************************************************************************
+About
+**************************************************************************************************/
+
+
+
+
+@media(max-width: 2560px){
+
+  #about {
+    height: 700px;
+  }
+  .about-title {
+    margin-top: 200px;
+  }
+}
+
+@media(max-width: 1440px){
+
+  #about {
+    height: 635px;
+  }
+  .about-title {
+    margin-top: 160px;
+  }
+}
+
+@media(max-width: 768px){
+
+  #about {
+    height: 635px;
+  }
+  .about-title {
+    margin-top: 0px;
+    padding-top: 80px;
+  }
+}
+
+
+
+
+/**************************************************************************************************
+Skills
+**************************************************************************************************/
+
+
+
+
+@media(max-width: 2560px){
+
+  #skills {
+    height: 680px;
+  }
+
+  .html {
+    margin-left: 200px;
+  }
+  .css {
+    margin-left: 155px;
+  }
+  .javascript {
+    margin-left: 80px;
+  }
+  .react {
+
+  }
+}
+
+@media(max-width: 1440px){
+
+  #skills {
+    height: 680px;
+  }
+
+  .html {
+    margin-left: 200px;
+  }
+  .css {
+    margin-left: 155px;
+  }
+  .javascript {
+    margin-left: 80px;
+  }
+  .react {
+
+  }
+}
+
+@media(max-width: 1024px){
+
+  #skills {
+    height: 680px;
+  }
+
+  .html {
+    margin-left: 200px;
+  }
+  .css {
+    margin-left: 155px;
+  }
+  .javascript {
+    margin-left: 80px;
+  }
+  .react {
+
+  }
+}
+
+@media(max-width: 768px){
+
+  #skills {
+    height: 680px;
+  }
+
+  .html {
+    margin-left: 10px;
+    display: inline-block;
+  }
+  .css {
+    margin-left: 10px;
+    display: inline-block;
+  }
+  .javascript {
+    margin-left: 10px;
+    display: inline-block;
+  }
+  .react {
+    display: inline-block;
+  }
+}
+
+
+
+
+/**************************************************************************************************
+Portfolio
+**************************************************************************************************/
+
+
+
+
+@media(max-width: 2650px){
+
+  #portfolio {
+    height: 700px;
+  }
+
+  .project-two {
+    margin-left: 260px;
+    width: 360px;
+  }
+  .project-description-one {
+    margin-left: 290px;
+  }
+
+  .project-three {
+    margin-left: 135px;
+    width: 360px;
+  }
+  .project-description-two {
+    margin-left: 170px;
+  }
+
+  .project-four {
+    margin-left: -10px;
+    width: 360px;
+  }
+  .project-description-three {
+    margin-left: 40px;
+  }
+}
+
+@media(max-width: 1440px){
+
+  #portfolio {
+    height: 700px;
+  }
+
+  .project-two {
+    margin-left: 100px;
+    width: 360px;
+  }
+  .project-description-one {
+    margin-left: 130px;
+  }
+
+  .project-three {
+    margin-left: 50px;
+    width: 360px;
+  }
+  .project-description-two {
+    margin-left: 88px;
+  }
+
+  .project-four {
+    width: 360px;
+  }
+}
+
+@media(max-width: 1024px) {
+
+  #portfolio {
+    height: 700px;
+  }
+  .project-two {
+    margin-left: 40px;
+    width: 280px;
+  }
+  .project-description-one {
+    margin-left: 30px;
+  }
+
+  .project-three {
+    margin-left: 25px;
+    width: 280px;
+  }
+  .project-description-two {
+    margin-left: 20px;
+  }
+
+  .project-four {
+    margin-left: 10px;
+    width: 280px;
+  }
+  .project-description-three {
+    margin-left: 10px;
+  }
+}
+
+
+
+
+/**************************************************************************************************
+Contact
+**************************************************************************************************/
+
+
+
+
+@media(max-width: 2650px){
+
+  .contact-picture {
+    margin-left: 910px;
+  }
+  .contact-links {
+    padding-left: 162px;
+  }
+  .email-container {
+    padding-left: 280px;
+  }
+  .social-container {
+    padding-left: 105px;
+  }
+}
+
+@media(max-width: 1440px){
+
+  .contact-picture {
+    margin-left: 678px;
+  }
+  .contact-links {
+    padding-left: 50px;
+  }
+  .email-container {
+    padding-left: 280px;
+  }
+  .social-container {
+    padding-left: 105px;
+  }
+}
+
+@media(max-width: 1024px){
+
+  .contact-picture {
+    margin-left: 470px;
+  }
+  .contact-links {
+    padding-left: 48px;
+  }
+  .email-container {
+    padding-left: 100px;
+  }
+  .social-container {
+    padding-left: 40px;
+  }
+}
+
+
+
+
+/**************************************************************************************************
+the end
+**************************************************************************************************/
