@@ -12,7 +12,7 @@ $(document).ready(function(){
   $('.scroll-link').on('click', function(event){
     event.preventDefault();
     var sectionID = $(this).attr("data-id");
-    scrollToID('#' + sectionID, 750);
+    scrollToID('#' + sectionID, 900);
   });
 
   //scroll to top functionality
@@ -32,7 +32,7 @@ $(document).ready(function(){
 
 //scroll function
 function scrollToID(id, speed){
-  var offSet = 50;
+  var offSet = 100;
   var targetOffset = $(id).offset().top - offSet;
   var mainNav = $('#main-nav');
   $('html,body').animate({scrollTop:targetOffset}, speed);

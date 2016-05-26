@@ -5809,6 +5809,229 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+/**************************************************************************************************
+Heading
+**************************************************************************************************/
+@media (max-width: 2560px) {
+  .page-section {
+    height: 750px; }
+
+  #title {
+    height: 700px; }
+
+  .title-name {
+    margin-top: 320px; } }
+@media (max-width: 1440px) {
+  .page-section {
+    height: 635px; }
+
+  #title {
+    height: 700px; }
+
+  .title-name {
+    margin-top: 290px; } }
+@media (max-width: 768px) {
+  .page-section {
+    height: 700px; }
+
+  #title {
+    height: 700px; }
+
+  .title-name {
+    margin-top: 0px;
+    padding-top: 300px; } }
+/**************************************************************************************************
+About
+**************************************************************************************************/
+@media (max-width: 2560px) {
+  #about {
+    height: 700px; }
+
+  .about-title {
+    margin-top: 200px; } }
+@media (max-width: 1440px) {
+  #about {
+    height: 635px; }
+
+  .about-title {
+    margin-top: 160px; } }
+@media (max-width: 768px) {
+  #about {
+    height: 635px; }
+
+  .about-title {
+    margin-top: 0px;
+    padding-top: 80px; } }
+/**************************************************************************************************
+Skills
+**************************************************************************************************/
+@media (max-width: 2560px) {
+  #skills {
+    height: 680px; }
+
+  .html {
+    margin-left: 200px; }
+
+  .css {
+    margin-left: 155px; }
+
+  .javascript {
+    margin-left: 80px; } }
+@media (max-width: 1440px) {
+  #skills {
+    height: 680px; }
+
+  .html {
+    margin-left: 200px; }
+
+  .css {
+    margin-left: 155px; }
+
+  .javascript {
+    margin-left: 80px; } }
+@media (max-width: 1024px) {
+  #skills {
+    height: 680px; }
+
+  .html {
+    margin-left: 200px; }
+
+  .css {
+    margin-left: 155px; }
+
+  .javascript {
+    margin-left: 80px; } }
+@media (max-width: 768px) {
+  #skills {
+    height: 680px; }
+
+  .html {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .css {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .javascript {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .react {
+    display: inline-block; } }
+/**************************************************************************************************
+Portfolio
+**************************************************************************************************/
+@media (max-width: 2650px) {
+  #portfolio {
+    height: 700px; }
+
+  .project-two {
+    margin-left: 260px;
+    width: 360px; }
+
+  .project-description-one {
+    margin-left: 290px; }
+
+  .project-three {
+    margin-left: 135px;
+    width: 360px; }
+
+  .project-description-two {
+    margin-left: 170px; }
+
+  .project-four {
+    margin-left: -10px;
+    width: 360px; }
+
+  .project-description-three {
+    margin-left: 40px; } }
+@media (max-width: 1440px) {
+  #portfolio {
+    height: 700px; }
+
+  .project-two {
+    margin-left: 100px;
+    width: 360px; }
+
+  .project-description-one {
+    margin-left: 130px; }
+
+  .project-three {
+    margin-left: 50px;
+    width: 360px; }
+
+  .project-description-two {
+    margin-left: 88px; }
+
+  .project-four {
+    width: 360px; } }
+@media (max-width: 1024px) {
+  #portfolio {
+    height: 700px; }
+
+  .project-two {
+    margin-left: 40px;
+    width: 280px; }
+
+  .project-description-one {
+    margin-left: 30px; }
+
+  .project-three {
+    margin-left: 25px;
+    width: 280px; }
+
+  .project-description-two {
+    margin-left: 20px; }
+
+  .project-four {
+    margin-left: 10px;
+    width: 280px; }
+
+  .project-description-three {
+    margin-left: 10px; } }
+/**************************************************************************************************
+Contact
+**************************************************************************************************/
+@media (max-width: 2650px) {
+  .contact-picture {
+    margin-left: 910px; }
+
+  .contact-links {
+    padding-left: 162px; }
+
+  .email-container {
+    padding-left: 280px; }
+
+  .social-container {
+    padding-left: 105px; } }
+@media (max-width: 1440px) {
+  .contact-picture {
+    margin-left: 678px; }
+
+  .contact-links {
+    padding-left: 50px; }
+
+  .email-container {
+    padding-left: 280px; }
+
+  .social-container {
+    padding-left: 105px; } }
+@media (max-width: 1024px) {
+  .contact-picture {
+    margin-left: 470px; }
+
+  .contact-links {
+    padding-left: 48px; }
+
+  .email-container {
+    padding-left: 100px; }
+
+  .social-container {
+    padding-left: 40px; } }
+/**************************************************************************************************
+the end
+**************************************************************************************************/
 *,
 *::before,
 *::after {
@@ -5916,12 +6139,10 @@ main
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 680px;
   width: 100%; }
 
 .title-name {
   text-align: center;
-  margin-top: 270px;
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 300; }
@@ -5934,14 +6155,12 @@ main
   font-size: 25px; }
 
 #about {
-  height: 600px;
   width: 100%;
   background-color: #F2F4F3; }
 
 .about-title {
   color: #7A6263;
   text-align: center;
-  margin-top: 100px;
   margin-bottom: 50px;
   font-family: 'Raleway', sans-serif; }
 
@@ -5959,7 +6178,6 @@ main
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 680px;
   width: 100%; }
 
 .skills-title {
@@ -5984,29 +6202,25 @@ main
 
 .html {
   height: 118px;
-  width: 118px;
-  margin-left: 200px; }
+  width: 118px; }
 
 .css {
   position: relative;
   top: 6px;
   height: 80px;
-  width: 80px;
-  margin-left: 155px; }
+  width: 80px; }
 
 .javascript {
   position: relative;
   top: 10px;
   height: 100px;
-  width: 100px;
-  margin-left: 80px; }
+  width: 100px; }
 
 .react {
   height: 100px;
   width: 100px; }
 
 #portfolio {
-  height: 680px;
   width: 100%;
   background-color: #F2F4F3; }
 
@@ -6025,43 +6239,36 @@ main
   background: url("../images/color-clock.png");
   background-position: 50% 50%;
   background-size: cover;
-  margin-left: 36px;
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75); }
 
 .project-two {
-  width: 360px;
   height: 200px;
   border-radius: 5px;
   background: url("../images/surf-and-paddle.png");
   background-position: 50% 50%;
   background-size: cover;
-  margin-left: 60px;
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75); }
 
 .project-three {
-  width: 360px;
   height: 200px;
   border-radius: 5px;
   background: url("../images/github-clone.png");
   background-position: 50% 50%;
   background-size: cover;
-  margin-left: 27px;
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75); }
 
 .project-four {
-  width: 360px;
   height: 200px;
   border-radius: 5px;
   background: url("../images/tshirts.png");
   background-position: 50% 50%;
   background-size: cover;
-  margin-left: -5px;
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5); }
@@ -6069,7 +6276,6 @@ main
 .project-description-one {
   color: #7A6263;
   margin-top: 30px;
-  margin-left: 90px;
   width: 300px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -6078,7 +6284,6 @@ main
 .project-description-two {
   color: #7A6263;
   margin-top: 30px;
-  margin-left: 58px;
   width: 300px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -6087,7 +6292,6 @@ main
 .project-description-three {
   color: #7A6263;
   margin-top: 30px;
-  margin-left: 28px;
   width: 300px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -6111,7 +6315,7 @@ main
   color: #F2F4F3;
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300; }
 
@@ -6123,11 +6327,9 @@ main
   height: 100px;
   width: 100px;
   border-radius: 50px;
-  margin-left: 590px;
   margin-bottom: 60px; }
 
 .email-container {
-  padding-left: 280px;
   padding-top: 10px; }
 
 .email-container a {
@@ -6141,9 +6343,6 @@ main
 
 .contact-email {
   margin-top: 10px; }
-
-.social-container {
-  padding-left: 105px; }
 
 .resume-container {
   padding-left: 85px;
