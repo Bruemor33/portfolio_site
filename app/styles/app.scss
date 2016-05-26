@@ -146,12 +146,12 @@ main
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 680px;
+  // height: 680px;
   width: 100%;
 }
 .title-name {
   text-align: center;
-  margin-top: 270px;
+  // margin-top: 270px;
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
@@ -167,14 +167,14 @@ main
 
 
 #about {
-  height: 600px;
+  // height: 600px;
   width: 100%;
   background-color: #F2F4F3;
 }
 .about-title {
   color: #7A6263;
   text-align: center;
-  margin-top: 100px;
+  // margin-top: 100px;
   margin-bottom: 50px;
   font-family: 'Raleway', sans-serif;
 }
@@ -195,7 +195,7 @@ main
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 680px;
+  // height: 680px;
   width: 100%;
 }
 .skills-title {
@@ -221,21 +221,21 @@ main
 .html {
   height: 118px;
   width: 118px;
-  margin-left: 200px;
+  // margin-left: 200px;
 }
 .css {
   position: relative;
   top: 6px;
   height: 80px;
   width: 80px;
-  margin-left: 155px;
+  // margin-left: 155px;
 }
 .javascript {
   position: relative;
   top: 10px;
   height: 100px;
   width: 100px;
-  margin-left: 80px;
+  // margin-left: 80px;
 }
 .react {
   height: 100px;
@@ -245,7 +245,7 @@ main
 
 
 #portfolio {
-  height: 680px;
+  // height: 680px;
   width: 100%;
   background-color: #F2F4F3;
 }
@@ -264,43 +264,43 @@ main
   background: url('../images/color-clock.png');
   background-position: 50% 50%;
   background-size: cover;
-  margin-left: 36px;
+  // margin-left: 36px;
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
 }
 .project-two {
-  width: 360px;
+  // width: 360px;
   height: 200px;
   border-radius: 5px;
   background: url('../images/surf-and-paddle.png');
   background-position: 50% 50%;
   background-size: cover;
-  margin-left: 60px;
+  // margin-left: 60px;
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
 }
 .project-three {
-  width: 360px;
+  // width: 360px;
   height: 200px;
   border-radius: 5px;
   background: url('../images/github-clone.png');
   background-position: 50% 50%;
   background-size: cover;
-  margin-left: 27px;
+  // margin-left: 27px;
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
 }
 .project-four {
-  width: 360px;
+  // width: 360px;
   height: 200px;
   border-radius: 5px;
   background: url('../images/tshirts.png');
   background-position: 50% 50%;
   background-size: cover;
-  margin-left: -5px;
+  // margin-left: -5px;
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
@@ -308,7 +308,7 @@ main
 .project-description-one {
   color: #7A6263;
   margin-top: 30px;
-  margin-left: 90px;
+  // margin-left: 90px;
   width: 300px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -317,7 +317,7 @@ main
 .project-description-two {
   color: #7A6263;
   margin-top: 30px;
-  margin-left: 58px;
+  // margin-left: 58px;
   width: 300px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -326,7 +326,7 @@ main
 .project-description-three {
   color: #7A6263;
   margin-top: 30px;
-  margin-left: 28px;
+  // margin-left: 28px;
   width: 300px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -354,7 +354,7 @@ main
   color: #F2F4F3;
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
@@ -366,11 +366,11 @@ main
   height: 100px;
   width: 100px;
   border-radius: 50px;
-  margin-left: 590px;
+  // margin-left: 590px;
   margin-bottom: 60px;
 }
 .email-container {
-  padding-left: 280px;
+  // padding-left: 280px;
   padding-top: 10px;
 }
 .email-container a {
@@ -385,9 +385,7 @@ main
 .contact-email {
   margin-top: 10px;
 }
-.social-container {
-  padding-left: 105px;
-}
+
 .resume-container {
   padding-left: 85px;
   margin-top: 10px;
