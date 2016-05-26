@@ -29,6 +29,15 @@ Heading
   .title-name {
     margin-top: 0px;
     padding-top: 300px; } }
+@media (max-width: 425px) {
+  .page-section {
+    height: 700px; }
+
+  #title {
+    font-size: 10px; }
+
+  .brand {
+    display: none; } }
 /**************************************************************************************************
 About
 **************************************************************************************************/
@@ -51,48 +60,20 @@ About
   .about-title {
     margin-top: 0px;
     padding-top: 80px; } }
+@media (max-width: 425px) {
+  #about {
+    height: 500px;
+    font-size: 10px; }
+
+  .about-summary {
+    margin-left: 35px;
+    margin-right: 35px; } }
 /**************************************************************************************************
 Skills
 **************************************************************************************************/
 @media (max-width: 2560px) {
   #skills {
     height: 680px; }
-
-  .html {
-    margin-left: 200px; }
-
-  .css {
-    margin-left: 155px; }
-
-  .javascript {
-    margin-left: 80px; } }
-@media (max-width: 1440px) {
-  #skills {
-    height: 680px; }
-
-  .html {
-    margin-left: 200px; }
-
-  .css {
-    margin-left: 155px; }
-
-  .javascript {
-    margin-left: 80px; } }
-@media (max-width: 1024px) {
-  #skills {
-    height: 680px; }
-
-  .html {
-    margin-left: 200px; }
-
-  .css {
-    margin-left: 155px; }
-
-  .javascript {
-    margin-left: 80px; } }
-@media (max-width: 768px) {
-  #skills {
-    height: 980px; }
 
   .html-container {
     width: 100px;
@@ -228,6 +209,602 @@ Skills
     margin-left: 10px;
     height: 100px;
     width: 100px; } }
+@media (max-width: 1440px) {
+  #skills {
+    height: 680px; }
+
+  .html-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .html {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .css-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .css {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .javascript-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .javascript {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .jquery-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .jquery {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .underscore-container {
+    width: 300px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .underscore {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .react-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .react {
+    display: inline-block; }
+
+  .backbone-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .backbone {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .parse-container {
+    width: 300px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .parse {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .sass-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .sass {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .git-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .git {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .handlebars-container {
+    width: 200px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .handlebars {
+    margin-left: 10px;
+    height: 100px;
+    width: 200px; }
+
+  .photoshop-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .photoshop {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .illustrator-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .illustrator {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .indesign-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .indesign {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; } }
+@media (max-width: 1024px) {
+  #skills {
+    height: 680px; }
+
+  .html-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .html {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .css-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .css {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .javascript-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .javascript {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .jquery-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .jquery {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .underscore-container {
+    width: 300px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .underscore {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .react-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .react {
+    display: inline-block; }
+
+  .backbone-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .backbone {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .parse-container {
+    width: 300px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .parse {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .sass-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .sass {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .git-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .git {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .handlebars-container {
+    width: 200px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .handlebars {
+    margin-left: 10px;
+    height: 100px;
+    width: 200px; }
+
+  .photoshop-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .photoshop {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .illustrator-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .illustrator {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .indesign-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .indesign {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; } }
+@media (max-width: 768px) {
+  #skills {
+    height: 1110px; }
+
+  .html-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 80px;
+    display: inline-block; }
+
+  .html {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    display: inline-block; }
+
+  .css-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 60px;
+    display: inline-block; }
+
+  .css {
+    margin-left: 10px;
+    height: 100px;
+    display: inline-block; }
+
+  .javascript-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 60px;
+    display: inline-block; }
+
+  .javascript {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .jquery-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 60px;
+    display: inline-block; }
+
+  .jquery {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .underscore-container {
+    width: 300px;
+    margin-right: 0px;
+    margin-left: 35px;
+    margin-top: 50px;
+    display: inline-block; }
+
+  .underscore {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .react-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 95px;
+    display: inline-block; }
+
+  .react {
+    display: inline-block; }
+
+  .backbone-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 35px;
+    display: inline-block; }
+
+  .backbone {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .parse-container {
+    width: 300px;
+    margin-right: 0px;
+    margin-left: 60px;
+    margin-top: 50px;
+    display: inline-block; }
+
+  .parse {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .sass-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 60px;
+    display: inline-block; }
+
+  .sass {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .git-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 70px;
+    display: inline-block; }
+
+  .git {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .handlebars-container {
+    width: 200px;
+    margin-right: 0px;
+    margin-left: 30px;
+    display: inline-block; }
+
+  .handlebars {
+    margin-left: 10px;
+    height: 100px;
+    width: 200px; }
+
+  .photoshop-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: -15px;
+    display: inline-block; }
+
+  .photoshop {
+    margin-left: 0px;
+    height: 150px;
+    width: 150px; }
+
+  .illustrator-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 45px;
+    display: inline-block; }
+
+  .illustrator {
+    margin-left: 10px;
+    height: 150px;
+    width: 150px; }
+
+  .indesign-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 70px;
+    display: inline-block; }
+
+  .indesign {
+    margin-left: 10px;
+    height: 150px;
+    width: 150px; } }
+@media (max-width: 425px) {
+  #skills {
+    height: 1510px;
+    font-size: 10px; }
+
+  .skills-summary-one {
+    margin-left: 35px;
+    margin-right: 35px; }
+
+  .html-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 80px;
+    display: inline-block; }
+
+  .html {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    display: inline-block; }
+
+  .css-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 60px;
+    display: inline-block; }
+
+  .css {
+    margin-left: 10px;
+    height: 100px;
+    display: inline-block; }
+
+  .javascript-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 90px;
+    margin-top: 40px;
+    display: inline-block; }
+
+  .javascript {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .jquery-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 35px;
+    display: inline-block; }
+
+  .jquery {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .underscore-container {
+    width: 300px;
+    margin-right: 0px;
+    margin-left: 46px;
+    margin-top: 50px;
+    display: inline-block; }
+
+  .underscore {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .react-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 95px;
+    display: inline-block; }
+
+  .react {
+    display: inline-block; }
+
+  .backbone-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 35px;
+    display: inline-block; }
+
+  .backbone {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .parse-container {
+    width: 300px;
+    margin-right: 0px;
+    margin-left: 46px;
+    margin-top: 15px;
+    display: inline-block; }
+
+  .parse {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .sass-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 80px;
+    display: inline-block; }
+
+  .sass {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .git-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 50px;
+    display: inline-block; }
+
+  .git {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .handlebars-container {
+    width: 200px;
+    margin-right: 0px;
+    margin-left: 30px;
+    display: inline-block; }
+
+  .handlebars {
+    margin-left: 10px;
+    height: 100px;
+    width: 200px; }
+
+  .photoshop-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: -15px;
+    display: inline-block; }
+
+  .photoshop {
+    margin-left: 0px;
+    height: 150px;
+    width: 150px; }
+
+  .illustrator-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 45px;
+    display: inline-block; }
+
+  .illustrator {
+    margin-left: 20px;
+    height: 150px;
+    width: 150px; }
+
+  .indesign-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 62px;
+    display: inline-block; }
+
+  .indesign {
+    margin-left: 10px;
+    height: 150px;
+    width: 150px; } }
 /**************************************************************************************************
 Portfolio
 **************************************************************************************************/
@@ -299,6 +876,59 @@ Portfolio
 
   .project-description-three {
     margin-left: 10px; } }
+@media (max-width: 768px) {
+  #portfolio {
+    height: 1610px; }
+
+  .project-two {
+    margin-left: 200px;
+    width: 350px; }
+
+  .project-description-one {
+    margin-left: 228px;
+    margin-bottom: 60px; }
+
+  .project-three {
+    margin-left: 200px;
+    width: 350px; }
+
+  .project-description-two {
+    margin-left: 228px;
+    margin-bottom: 60px; }
+
+  .project-four {
+    margin-left: 200px;
+    width: 350px; }
+
+  .project-description-three {
+    margin-left: 228px; } }
+@media (max-width: 425px) {
+  #portfolio {
+    height: 1510px;
+    font-size: 10px; }
+
+  .project-two {
+    margin-left: 60px;
+    width: 300px; }
+
+  .project-description-one {
+    margin-left: 60px;
+    margin-bottom: 60px; }
+
+  .project-three {
+    margin-left: 60px;
+    width: 300px; }
+
+  .project-description-two {
+    margin-left: 60px;
+    margin-bottom: 60px; }
+
+  .project-four {
+    margin-left: 60px;
+    width: 300px; }
+
+  .project-description-three {
+    margin-left: 60px; } }
 /**************************************************************************************************
 Contact
 **************************************************************************************************/
@@ -338,6 +968,47 @@ Contact
 
   .social-container {
     padding-left: 40px; } }
+@media (max-width: 768px) {
+  .contact-picture {
+    margin-left: 340px; }
+
+  .contact-links {
+    padding-left: 90px; }
+
+  .email-container {
+    padding-left: 10px; }
+
+  .social-container {
+    padding-left: 40px;
+    position: relative;
+    bottom: 20px; }
+
+  .resume-container {
+    padding-left: 0px; } }
+@media (max-width: 425px) {
+  #contact {
+    font-size: 10px; }
+
+  .contact-picture {
+    margin-left: 165px; }
+
+  .contact-links {
+    padding-left: 0px; }
+
+  .email-container {
+    padding-left: 10px;
+    width: 425px;
+    display: block; }
+
+  .social-container {
+    padding-left: 40px;
+    width: 425px;
+    display: block; }
+
+  .resume-container {
+    padding-left: 0px;
+    width: 425px;
+    display: block; } }
 /**************************************************************************************************
 the end
 **************************************************************************************************/

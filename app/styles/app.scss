@@ -181,8 +181,8 @@ main
 .about-summary {
   color: #7A6263;
   text-align: center;
-  margin-left: 250px;
-  margin-right: 250px;
+  // margin-left: 250px;
+  // margin-right: 250px;
   padding-top: 50px;
   border-top: 1px solid #B79E87;
   font-family: 'Raleway', sans-serif;
@@ -210,37 +210,15 @@ main
   color: #F2F4F3;
   text-align: center;
   margin-top: 50px;
-  margin-left: 250px;
-  margin-right: 250px;
+  // margin-left: 250px;
+  // margin-right: 250px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
 .skill-logos {
   margin-top: 80px;
 }
-.html {
-  height: 118px;
-  width: 118px;
-  // margin-left: 200px;
-}
-.css {
-  position: relative;
-  top: 6px;
-  height: 80px;
-  width: 80px;
-  // margin-left: 155px;
-}
-.javascript {
-  position: relative;
-  top: 10px;
-  height: 100px;
-  width: 100px;
-  // margin-left: 80px;
-}
-.react {
-  height: 100px;
-  width: 100px;
-}
+
 
 
 
@@ -372,6 +350,8 @@ main
 .email-container {
   // padding-left: 280px;
   padding-top: 10px;
+  // width: 150px;
+  // display: inline-block;
 }
 .email-container a {
   font-family: 'Raleway', sans-serif;
@@ -386,9 +366,16 @@ main
   margin-top: 10px;
 }
 
+.social-container {
+  // width: 300px;
+  // display: inline-block;
+}
+
 .resume-container {
-  padding-left: 85px;
+  // padding-left: 85px;
   margin-top: 10px;
+  // width: 150px;
+  // display: inline-block;
 }
 .resume-container a {
   text-decoration: none;
