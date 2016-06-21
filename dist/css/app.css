@@ -5857,34 +5857,50 @@ About
     height: 700px; }
 
   .about-title {
-    margin-top: 200px; } }
+    margin-top: 200px; }
+
+  .about-summary {
+    margin-left: 10%;
+    margin-right: 10%; } }
 @media (max-width: 1440px) {
   #about {
     height: 635px; }
 
   .about-title {
-    margin-top: 160px; } }
+    margin-top: 160px; }
+
+  .about-summary {
+    margin-left: 10%;
+    margin-right: 10%; } }
 @media (max-width: 768px) {
   #about {
     height: 635px; }
 
   .about-title {
     margin-top: 0px;
-    padding-top: 80px; } }
+    padding-top: 80px; }
+
+  .about-summary {
+    margin-left: 10%;
+    margin-right: 10%; } }
 @media (max-width: 425px) {
   #about {
     height: 500px;
     font-size: 10px; }
 
   .about-summary {
-    margin-left: 35px;
-    margin-right: 35px; } }
+    margin-left: 10%;
+    margin-right: 10%; } }
 /**************************************************************************************************
 Skills
 **************************************************************************************************/
 @media (max-width: 2560px) {
   #skills {
     height: 680px; }
+
+  .skills-summary-one {
+    margin-left: 10%;
+    margin-right: 10%; }
 
   .html-container {
     width: 100px;
@@ -6023,6 +6039,10 @@ Skills
 @media (max-width: 1440px) {
   #skills {
     height: 680px; }
+
+  .skills-summary-one {
+    margin-left: 10%;
+    margin-right: 10%; }
 
   .html-container {
     width: 100px;
@@ -6162,6 +6182,10 @@ Skills
   #skills {
     height: 680px; }
 
+  .skills-summary-one {
+    margin-left: 10%;
+    margin-right: 10%; }
+
   .html-container {
     width: 100px;
     margin-right: 0px;
@@ -6299,6 +6323,10 @@ Skills
 @media (max-width: 768px) {
   #skills {
     height: 1110px; }
+
+  .skills-summary-one {
+    margin-left: 10%;
+    margin-right: 10%; }
 
   .html-container {
     width: 100px;
@@ -6457,6 +6485,10 @@ Skills
   #skills {
     height: 1510px;
     font-size: 10px; }
+
+  .skills-summary-one {
+    margin-left: 10%;
+    margin-right: 10%; }
 
   .skills-summary-one {
     margin-left: 35px;
@@ -6623,67 +6655,82 @@ Portfolio
   #portfolio {
     height: 700px; }
 
-  .project-two {
-    margin-left: 260px;
-    width: 360px; }
+  .portfolio-container {
+    margin-left: 4%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-right: 2.5%;
+    width: 300px; }
 
   .project-description-one {
-    margin-left: 290px; }
+    margin-left: 2%; }
 
-  .project-three {
-    margin-left: 135px;
-    width: 360px; }
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
 
   .project-description-two {
-    margin-left: 170px; }
+    margin-left: 2.5%; }
 
-  .project-four {
-    margin-left: -10px;
-    width: 360px; }
-
-  .project-description-three {
-    margin-left: 40px; } }
+  .project-three {
+    margin-left: 2.5%;
+    width: 300px; } }
 @media (max-width: 1440px) {
   #portfolio {
     height: 700px; }
 
-  .project-two {
-    margin-left: 100px;
-    width: 360px; }
+  .portfolio-container {
+    margin-left: 7%; }
 
-  .project-description-one {
-    margin-left: 130px; }
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
 
   .project-three {
-    margin-left: 50px;
-    width: 360px; }
-
-  .project-description-two {
-    margin-left: 88px; }
-
-  .project-four {
-    width: 360px; } }
+    width: 300px;
+    margin-left: 2.5%; } }
 @media (max-width: 1024px) {
   #portfolio {
     height: 700px; }
 
-  .project-two {
-    margin-left: 40px;
-    width: 280px; }
+  .portfolio-container {
+    margin-left: 3.5%; }
+
+  .project-container {
+    width: 310px; }
+
+  .project-one {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 300px; }
 
   .project-description-one {
-    margin-left: 30px; }
+    margin-left: 13%; }
 
-  .project-three {
-    margin-left: 25px;
-    width: 280px; }
+  .project-two {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 300px; }
 
   .project-description-two {
-    margin-left: 20px; }
+    margin-left: 5%; }
 
-  .project-four {
-    margin-left: 10px;
-    width: 280px; }
+  .project-three {
+    margin-left: 2.5%;
+    width: 300px; }
 
   .project-description-three {
     margin-left: 10px; } }
@@ -6691,106 +6738,137 @@ Portfolio
   #portfolio {
     height: 1610px; }
 
-  .project-two {
-    margin-left: 200px;
-    width: 350px; }
+  .portfolio-container {
+    margin-left: 4%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
 
   .project-description-one {
-    margin-left: 228px;
+    margin-left: 13%;
+    margin-bottom: 60px; }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-description-two {
+    margin-left: 5%;
     margin-bottom: 60px; }
 
   .project-three {
-    margin-left: 200px;
-    width: 350px; }
-
-  .project-description-two {
-    margin-left: 228px;
-    margin-bottom: 60px; }
-
-  .project-four {
-    margin-left: 200px;
-    width: 350px; }
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
 
   .project-description-three {
-    margin-left: 228px; } }
+    margin-left: 2%; } }
 @media (max-width: 425px) {
   #portfolio {
     height: 1510px;
     font-size: 10px; }
 
-  .project-two {
-    margin-left: 60px;
+  .portfolio-container {
+    margin-left: 4%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     width: 300px; }
 
   .project-description-one {
-    margin-left: 60px;
+    margin-left: 13%;
     margin-bottom: 60px; }
 
-  .project-three {
-    margin-left: 60px;
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     width: 300px; }
 
   .project-description-two {
-    margin-left: 60px;
+    margin-left: 5%;
     margin-bottom: 60px; }
 
-  .project-four {
-    margin-left: 60px;
+  .project-three {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     width: 300px; }
 
   .project-description-three {
-    margin-left: 60px; } }
+    margin-left: 2%; } }
 /**************************************************************************************************
 Contact
 **************************************************************************************************/
 @media (max-width: 2650px) {
   .contact-picture {
-    margin-left: 910px; }
+    margin-left: 46.5%;
+    margin-right: 46.5%; }
 
   .contact-links {
-    padding-left: 162px; }
+    padding-left: 5%; }
 
   .email-container {
-    padding-left: 280px; }
+    padding-left: 15%; }
 
   .social-container {
-    padding-left: 105px; } }
+    padding-left: 5.1%; }
+
+  .resume-container {
+    padding-left: 6%; } }
 @media (max-width: 1440px) {
   .contact-picture {
-    margin-left: 678px; }
+    margin-left: 46.5%;
+    margin-right: 46.5%; }
 
   .contact-links {
-    padding-left: 50px; }
+    padding-left: 5%; }
 
   .email-container {
-    padding-left: 280px; }
+    padding-left: 15%; }
 
   .social-container {
-    padding-left: 105px; } }
+    padding-left: 5.1%; }
+
+  .resume-container {
+    padding-left: 6%; } }
 @media (max-width: 1024px) {
   .contact-picture {
-    margin-left: 470px; }
+    margin-left: 46.5%;
+    margin-right: 46.5%; }
 
   .contact-links {
-    padding-left: 48px; }
+    padding-left: 5%; }
 
   .email-container {
-    padding-left: 100px; }
+    padding-left: 15%; }
 
   .social-container {
-    padding-left: 40px; } }
+    padding-left: 5.1%; }
+
+  .resume-container {
+    padding-left: 6%; } }
 @media (max-width: 768px) {
   .contact-picture {
-    margin-left: 340px; }
+    margin-left: 46.5%;
+    margin-right: 46.5%; }
 
   .contact-links {
-    padding-left: 90px; }
+    padding-left: 5%; }
 
   .email-container {
     padding-left: 10px; }
 
   .social-container {
-    padding-left: 40px;
+    padding-left: 5.1%;
     position: relative;
     bottom: 20px; }
 
@@ -6801,10 +6879,11 @@ Contact
     font-size: 10px; }
 
   .contact-picture {
-    margin-left: 165px; }
+    margin-left: 46.5%;
+    margin-right: 46.5%; }
 
   .contact-links {
-    padding-left: 0px; }
+    padding-left: 0; }
 
   .email-container {
     padding-left: 10px;
@@ -6812,7 +6891,7 @@ Contact
     display: block; }
 
   .social-container {
-    padding-left: 40px;
+    padding-left: 5.1%;
     width: 425px;
     display: block; }
 
@@ -7000,17 +7079,6 @@ main
   font-weight: 300; }
 
 .project-one {
-  width: 280px;
-  height: 200px;
-  border-radius: 5px;
-  background: url("../images/color-clock.png");
-  background-position: 50% 50%;
-  background-size: cover;
-  -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75); }
-
-.project-two {
   height: 200px;
   border-radius: 5px;
   background: url("../images/surf-and-paddle.png");
@@ -7020,7 +7088,7 @@ main
   -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75); }
 
-.project-three {
+.project-two {
   height: 200px;
   border-radius: 5px;
   background: url("../images/github-clone.png");
@@ -7030,7 +7098,7 @@ main
   -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75); }
 
-.project-four {
+.project-three {
   height: 200px;
   border-radius: 5px;
   background: url("../images/tshirts.png");
