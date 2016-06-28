@@ -5810,6 +5810,19 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /**************************************************************************************************
+Navigation
+**************************************************************************************************/
+@media (max-width: 425px) {
+  .navigation {
+    z-index: 0;
+    width: 0%; }
+
+  .navbar a {
+    margin-left: 3%; }
+
+  .navigation-elements li {
+    display: none; } }
+/**************************************************************************************************
 Heading
 **************************************************************************************************/
 @media (max-width: 2560px) {
@@ -6656,7 +6669,7 @@ Portfolio
     height: 700px; }
 
   .portfolio-container {
-    margin-left: 4%; }
+    margin-left: 29%; }
 
   .project-container {
     width: 380px; }
@@ -6684,7 +6697,7 @@ Portfolio
     height: 700px; }
 
   .portfolio-container {
-    margin-left: 7%; }
+    margin-left: 12%; }
 
   .project-container {
     width: 380px; }
@@ -6707,7 +6720,7 @@ Portfolio
     height: 700px; }
 
   .portfolio-container {
-    margin-left: 3.5%; }
+    margin-left: 4%; }
 
   .project-container {
     width: 310px; }
@@ -6718,7 +6731,7 @@ Portfolio
     width: 300px; }
 
   .project-description-one {
-    margin-left: 13%; }
+    margin-left: 3%; }
 
   .project-two {
     margin-left: 2%;
@@ -6726,7 +6739,7 @@ Portfolio
     width: 300px; }
 
   .project-description-two {
-    margin-left: 5%; }
+    margin-left: 3%; }
 
   .project-three {
     margin-left: 2.5%;
@@ -6739,7 +6752,7 @@ Portfolio
     height: 1610px; }
 
   .portfolio-container {
-    margin-left: 4%; }
+    margin-left: 28%; }
 
   .project-container {
     width: 380px; }
@@ -6750,7 +6763,7 @@ Portfolio
     width: 300px; }
 
   .project-description-one {
-    margin-left: 13%;
+    margin-left: 3%;
     margin-bottom: 60px; }
 
   .project-two {
@@ -6759,7 +6772,7 @@ Portfolio
     width: 300px; }
 
   .project-description-two {
-    margin-left: 5%;
+    margin-left: 3%;
     margin-bottom: 60px; }
 
   .project-three {
@@ -6768,14 +6781,14 @@ Portfolio
     width: 300px; }
 
   .project-description-three {
-    margin-left: 2%; } }
+    margin-left: 2.5%; } }
 @media (max-width: 425px) {
   #portfolio {
     height: 1510px;
     font-size: 10px; }
 
   .portfolio-container {
-    margin-left: 4%; }
+    margin-left: 11%; }
 
   .project-container {
     width: 380px; }
@@ -6786,7 +6799,7 @@ Portfolio
     width: 300px; }
 
   .project-description-one {
-    margin-left: 13%;
+    margin-left: 3%;
     margin-bottom: 60px; }
 
   .project-two {
@@ -6795,7 +6808,7 @@ Portfolio
     width: 300px; }
 
   .project-description-two {
-    margin-left: 5%;
+    margin-left: 3%;
     margin-bottom: 60px; }
 
   .project-three {
@@ -6804,7 +6817,37 @@ Portfolio
     width: 300px; }
 
   .project-description-three {
-    margin-left: 2%; } }
+    margin-left: 2.5%; } }
+@media (max-width: 375px) {
+  #portfolio {
+    height: 1510px;
+    font-size: 10px; }
+
+  .portfolio-container {
+    margin-left: 6%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    width: 300px; }
+
+  .project-description-one {
+    margin-left: 3%;
+    margin-bottom: 60px; }
+
+  .project-two {
+    width: 300px; }
+
+  .project-description-two {
+    margin-left: 3%;
+    margin-bottom: 60px; }
+
+  .project-three {
+    width: 300px; }
+
+  .project-description-three {
+    margin-left: 2.5%; } }
 /**************************************************************************************************
 Contact
 **************************************************************************************************/
@@ -6934,7 +6977,7 @@ header {
 
 .navigation {
   position: fixed;
-  z-index: 10;
+  z-index: 5;
   background-color: rgba(10, 9, 8, 0.8);
   width: 100%;
   height: 50px; }
