@@ -5812,11 +5812,10 @@ button.close {
 /**************************************************************************************************
 Navigation
 **************************************************************************************************/
+@media (max-width: 1440px) {
+  .mobile-nav {
+    display: none; } }
 @media (max-width: 425px) {
-  .navigation {
-    z-index: 0;
-    width: 0%; }
-
   .navbar a {
     margin-left: 3%; }
 
@@ -6715,6 +6714,35 @@ Portfolio
   .project-three {
     width: 300px;
     margin-left: 2.5%; } }
+@media (max-width: 1280px) {
+  #portfolio {
+    height: 700px; }
+
+  .portfolio-container {
+    margin-left: 7.5%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-description-two {
+    margin-left: 3%; }
+
+  .project-three {
+    width: 300px;
+    margin-left: 2.5%; }
+
+  .project-description-three {
+    margin-left: 4%; } }
 @media (max-width: 1024px) {
   #portfolio {
     height: 700px; }
@@ -6853,11 +6881,10 @@ Contact
 **************************************************************************************************/
 @media (max-width: 2650px) {
   .contact-picture {
-    margin-left: 46.5%;
-    margin-right: 46.5%; }
+    margin-left: 48.5%; }
 
   .contact-links {
-    padding-left: 5%; }
+    padding-left: 12.5%; }
 
   .email-container {
     padding-left: 15%; }
@@ -6866,14 +6893,14 @@ Contact
     padding-left: 5.1%; }
 
   .resume-container {
-    padding-left: 6%; } }
+    padding-left: 4%; } }
 @media (max-width: 1440px) {
   .contact-picture {
     margin-left: 46.5%;
     margin-right: 46.5%; }
 
   .contact-links {
-    padding-left: 5%; }
+    padding-left: 6.5%; }
 
   .email-container {
     padding-left: 15%; }
@@ -6885,11 +6912,10 @@ Contact
     padding-left: 6%; } }
 @media (max-width: 1024px) {
   .contact-picture {
-    margin-left: 46.5%;
-    margin-right: 46.5%; }
+    margin-left: 45.5%; }
 
   .contact-links {
-    padding-left: 5%; }
+    padding-left: 2%; }
 
   .email-container {
     padding-left: 15%; }
@@ -6901,22 +6927,25 @@ Contact
     padding-left: 6%; } }
 @media (max-width: 768px) {
   .contact-picture {
-    margin-left: 46.5%;
-    margin-right: 46.5%; }
+    margin-left: 44%; }
 
   .contact-links {
-    padding-left: 5%; }
+    padding-left: 12.5%; }
 
   .email-container {
-    padding-left: 10px; }
+    padding-left: 2%;
+    display: inline-block; }
 
   .social-container {
     padding-left: 5.1%;
     position: relative;
-    bottom: 20px; }
+    bottom: 0px;
+    top: 18px;
+    display: inline-block; }
 
   .resume-container {
-    padding-left: 0px; } }
+    padding-left: 2%;
+    display: inline-block; } }
 @media (max-width: 425px) {
   #contact {
     font-size: 10px; }
@@ -6977,7 +7006,7 @@ header {
 
 .navigation {
   position: fixed;
-  z-index: 5;
+  z-index: 10;
   background-color: rgba(10, 9, 8, 0.8);
   width: 100%;
   height: 50px; }
@@ -7067,6 +7096,9 @@ main
   font-weight: 300;
   font-size: 25px; }
 
+/*******************************************************************************************
+About
+*******************************************************************************************/
 #about {
   width: 100%;
   background-color: #F2F4F3; }
@@ -7084,6 +7116,9 @@ main
   border-top: 1px solid #B79E87;
   font-family: 'Raleway', sans-serif; }
 
+/*******************************************************************************************
+Skills
+*******************************************************************************************/
 #skills {
   background: linear-gradient(rgba(183, 158, 135, 0.4), rgba(183, 158, 135, 0.5)), url("../images/programming-2.jpg");
   background-position: 50% 50%;
@@ -7109,6 +7144,9 @@ main
 .skill-logos {
   margin-top: 80px; }
 
+/*******************************************************************************************
+Portfolio
+*******************************************************************************************/
 #portfolio {
   width: 100%;
   background-color: #F2F4F3; }
@@ -7181,6 +7219,9 @@ main
 .hover-effect {
   background-color: rgba(0, 0, 0, 0.7); }
 
+/*******************************************************************************************
+Contact
+*******************************************************************************************/
 #contact {
   background: linear-gradient(rgba(67, 91, 104, 0.7), rgba(67, 91, 104, 0.7)), url("../images/contact-me.jpg");
   background-position: 50% 50%;
@@ -7278,13 +7319,13 @@ main
   color: #435B68; }
 
 /*******************************************************************************************
-Header
+Footer
 *******************************************************************************************/
 .footer-copywrite {
   text-align: center; }
 
 /*******************************************************************************************
-Header
+The End
 *******************************************************************************************/
 
 /*# sourceMappingURL=app.css.map */
