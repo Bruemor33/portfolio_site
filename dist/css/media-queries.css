@@ -1,8 +1,17 @@
 /**************************************************************************************************
 Navigation
 **************************************************************************************************/
+@media (max-width: 1920px) {
+  .modile-nav {
+    display: none; } }
 @media (max-width: 1440px) {
   .mobile-nav {
+    display: none; } }
+@media (max-width: 1640px) {
+  .mobile-nav {
+    display: none; } }
+@media (max-width: 1260px) {
+  .modile-nav {
     display: none; } }
 @media (max-width: 425px) {
   .navbar a {
@@ -880,6 +889,58 @@ Portfolio
   .project-three {
     margin-left: 2.5%;
     width: 300px; } }
+/**************************************************************************************************
+1920
+**************************************************************************************************/
+@media (max-width: 1920px) {
+  #portfolio {
+    height: 700px; }
+
+  .portfolio-container {
+    margin-left: 21.5%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-three {
+    width: 300px;
+    margin-left: 2.5%; } }
+/**************************************************************************************************
+1920
+**************************************************************************************************/
+@media (max-width: 1640px) {
+  #portfolio {
+    height: 700px; }
+
+  .portfolio-container {
+    margin-left: 16.5%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-three {
+    width: 300px;
+    margin-left: 2.5%; } }
 @media (max-width: 1440px) {
   #portfolio {
     height: 700px; }
