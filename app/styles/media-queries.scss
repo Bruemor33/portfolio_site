@@ -9,9 +9,34 @@ Navigation
 
 
 
+@media(max-width: 1920px){
+
+  .modile-nav {
+    display: none;
+  }
+}
+
 
 @media(max-width: 1440px) {
   .mobile-nav {
+    display: none;
+  }
+  // .navbar a {
+  //   margin-left: 1%;
+  // }
+}
+
+@media(max-width: 1640px){
+  .navbar a {
+
+  }
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media(max-width: 1260px){
+  .modile-nav {
     display: none;
   }
 }
@@ -1053,6 +1078,116 @@ Portfolio
   .project-description-three {
     // margin-left: 40px;
   }
+}
+
+
+
+
+
+
+
+
+
+
+/**************************************************************************************************
+1920
+**************************************************************************************************/
+
+@media(max-width: 1920px){
+
+  #portfolio {
+    height: 700px;
+
+  }
+  .portfolio-container {
+    // margin-right: 4%;
+    margin-left: 21.5%;
+  }
+  .project-container {
+    width: 380px;
+  }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px;
+  }
+  .project-description-one {
+    // margin-left: 13%;
+  }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px;
+  }
+  .project-description-two {
+    // margin-left: 5%;
+  }
+
+  .project-three {
+    width: 300px;
+    margin-left: 2.5%;
+  }
+  .project-description-three {
+
+  }
+
+}
+
+/**************************************************************************************************
+1920
+**************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1640px){
+
+  #portfolio {
+    height: 700px;
+
+  }
+  .portfolio-container {
+    // margin-right: 4%;
+    margin-left: 16.5%;
+  }
+  .project-container {
+    width: 380px;
+  }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px;
+  }
+  .project-description-one {
+    // margin-left: 13%;
+  }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px;
+  }
+  .project-description-two {
+    // margin-left: 5%;
+  }
+
+  .project-three {
+    width: 300px;
+    margin-left: 2.5%;
+  }
+  .project-description-three {
+
+  }
+
 }
 
 @media(max-width: 1440px){
