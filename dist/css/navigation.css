@@ -1,0 +1,23 @@
+/**************************************************************************************************
+Navigation
+**************************************************************************************************/
+@media (max-width: 1920px) {
+  .modile-nav {
+    display: none; } }
+@media (max-width: 1440px) {
+  .mobile-nav {
+    display: none; } }
+@media (max-width: 1640px) {
+  .mobile-nav {
+    display: none; } }
+@media (max-width: 1260px) {
+  .modile-nav {
+    display: none; } }
+@media (max-width: 425px) {
+  .navbar a {
+    margin-left: 3%; }
+
+  .navigation-elements li {
+    display: none; } }
+
+/*# sourceMappingURL=navigation.css.map */

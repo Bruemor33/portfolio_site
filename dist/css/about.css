@@ -1,0 +1,44 @@
+/**************************************************************************************************
+About
+**************************************************************************************************/
+@media (max-width: 2560px) {
+  #about {
+    height: 700px; }
+
+  .about-title {
+    margin-top: 200px; }
+
+  .about-summary {
+    margin-left: 10%;
+    margin-right: 10%; } }
+@media (max-width: 1440px) {
+  #about {
+    height: 635px; }
+
+  .about-title {
+    margin-top: 160px; }
+
+  .about-summary {
+    margin-left: 10%;
+    margin-right: 10%; } }
+@media (max-width: 768px) {
+  #about {
+    height: 635px; }
+
+  .about-title {
+    margin-top: 0px;
+    padding-top: 80px; }
+
+  .about-summary {
+    margin-left: 10%;
+    margin-right: 10%; } }
+@media (max-width: 425px) {
+  #about {
+    height: 500px;
+    font-size: 10px; }
+
+  .about-summary {
+    margin-left: 10%;
+    margin-right: 10%; } }
+
+/*# sourceMappingURL=about.css.map */

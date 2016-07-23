@@ -7035,6 +7035,1134 @@ Contact
 /**************************************************************************************************
 the end
 **************************************************************************************************/
+/**************************************************************************************************
+Heading
+**************************************************************************************************/
+@media (max-width: 2560px) {
+  .page-section {
+    height: 750px; }
+
+  #title {
+    height: 700px; }
+
+  .title-name {
+    margin-top: 320px; } }
+@media (max-width: 1440px) {
+  .page-section {
+    height: 635px; }
+
+  #title {
+    height: 700px; }
+
+  .title-name {
+    margin-top: 290px; } }
+@media (max-width: 768px) {
+  .page-section {
+    height: 700px; }
+
+  #title {
+    height: 700px; }
+
+  .title-name {
+    margin-top: 0px;
+    padding-top: 300px; } }
+@media (max-width: 425px) {
+  .page-section {
+    height: 700px; }
+
+  #title {
+    font-size: 10px; }
+
+  .brand {
+    display: none; } }
+/**************************************************************************************************
+Navigation
+**************************************************************************************************/
+@media (max-width: 1920px) {
+  .modile-nav {
+    display: none; } }
+@media (max-width: 1440px) {
+  .mobile-nav {
+    display: none; } }
+@media (max-width: 1640px) {
+  .mobile-nav {
+    display: none; } }
+@media (max-width: 1260px) {
+  .modile-nav {
+    display: none; } }
+@media (max-width: 425px) {
+  .navbar a {
+    margin-left: 3%; }
+
+  .navigation-elements li {
+    display: none; } }
+/**************************************************************************************************
+About
+**************************************************************************************************/
+@media (max-width: 2560px) {
+  #about {
+    height: 700px; }
+
+  .about-title {
+    margin-top: 200px; }
+
+  .about-summary {
+    margin-left: 10%;
+    margin-right: 10%; } }
+@media (max-width: 1440px) {
+  #about {
+    height: 635px; }
+
+  .about-title {
+    margin-top: 160px; }
+
+  .about-summary {
+    margin-left: 10%;
+    margin-right: 10%; } }
+@media (max-width: 768px) {
+  #about {
+    height: 635px; }
+
+  .about-title {
+    margin-top: 0px;
+    padding-top: 80px; }
+
+  .about-summary {
+    margin-left: 10%;
+    margin-right: 10%; } }
+@media (max-width: 425px) {
+  #about {
+    height: 500px;
+    font-size: 10px; }
+
+  .about-summary {
+    margin-left: 10%;
+    margin-right: 10%; } }
+/**************************************************************************************************
+Skills
+**************************************************************************************************/
+@media (max-width: 2560px) {
+  #skills {
+    height: 680px; }
+
+  .skills-summary-one {
+    margin-left: 10%;
+    margin-right: 10%; }
+
+  .html-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .html {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .css-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .css {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .javascript-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .javascript {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .jquery-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .jquery {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .underscore-container {
+    width: 300px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .underscore {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .react-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .react {
+    display: inline-block; }
+
+  .backbone-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .backbone {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .parse-container {
+    width: 300px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .parse {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .sass-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .sass {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .git-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .git {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .handlebars-container {
+    width: 200px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .handlebars {
+    margin-left: 10px;
+    height: 100px;
+    width: 200px; }
+
+  .photoshop-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .photoshop {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .illustrator-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .illustrator {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .indesign-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .indesign {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; } }
+@media (max-width: 1440px) {
+  #skills {
+    height: 680px; }
+
+  .skills-summary-one {
+    margin-left: 10%;
+    margin-right: 10%; }
+
+  .html-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .html {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .css-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .css {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .javascript-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .javascript {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .jquery-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .jquery {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .underscore-container {
+    width: 300px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .underscore {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .react-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .react {
+    display: inline-block; }
+
+  .backbone-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .backbone {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .parse-container {
+    width: 300px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .parse {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .sass-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .sass {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .git-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .git {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .handlebars-container {
+    width: 200px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .handlebars {
+    margin-left: 10px;
+    height: 100px;
+    width: 200px; }
+
+  .photoshop-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .photoshop {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .illustrator-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .illustrator {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .indesign-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .indesign {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; } }
+@media (max-width: 1024px) {
+  #skills {
+    height: 680px; }
+
+  .skills-summary-one {
+    margin-left: 10%;
+    margin-right: 10%; }
+
+  .html-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .html {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .css-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .css {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .javascript-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .javascript {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .jquery-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .jquery {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .underscore-container {
+    width: 300px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .underscore {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .react-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .react {
+    display: inline-block; }
+
+  .backbone-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .backbone {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .parse-container {
+    width: 300px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .parse {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .sass-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .sass {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .git-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .git {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .handlebars-container {
+    width: 200px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .handlebars {
+    margin-left: 10px;
+    height: 100px;
+    width: 200px; }
+
+  .photoshop-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .photoshop {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .illustrator-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .illustrator {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .indesign-container {
+    width: 100px;
+    margin-right: 0px;
+    display: inline-block; }
+
+  .indesign {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; } }
+@media (max-width: 768px) {
+  #skills {
+    height: 1110px; }
+
+  .skills-summary-one {
+    margin-left: 10%;
+    margin-right: 10%; }
+
+  .html-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 80px;
+    display: inline-block; }
+
+  .html {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    display: inline-block; }
+
+  .css-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 60px;
+    display: inline-block; }
+
+  .css {
+    margin-left: 10px;
+    height: 100px;
+    display: inline-block; }
+
+  .javascript-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 60px;
+    display: inline-block; }
+
+  .javascript {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .jquery-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 60px;
+    display: inline-block; }
+
+  .jquery {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .underscore-container {
+    width: 300px;
+    margin-right: 0px;
+    margin-left: 35px;
+    margin-top: 50px;
+    display: inline-block; }
+
+  .underscore {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .react-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 95px;
+    display: inline-block; }
+
+  .react {
+    display: inline-block; }
+
+  .backbone-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 35px;
+    display: inline-block; }
+
+  .backbone {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .parse-container {
+    width: 300px;
+    margin-right: 0px;
+    margin-left: 60px;
+    margin-top: 50px;
+    display: inline-block; }
+
+  .parse {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .sass-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 60px;
+    display: inline-block; }
+
+  .sass {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .git-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 70px;
+    display: inline-block; }
+
+  .git {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .handlebars-container {
+    width: 200px;
+    margin-right: 0px;
+    margin-left: 30px;
+    display: inline-block; }
+
+  .handlebars {
+    margin-left: 10px;
+    height: 100px;
+    width: 200px; }
+
+  .photoshop-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: -15px;
+    display: inline-block; }
+
+  .photoshop {
+    margin-left: 0px;
+    height: 150px;
+    width: 150px; }
+
+  .illustrator-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 45px;
+    display: inline-block; }
+
+  .illustrator {
+    margin-left: 10px;
+    height: 150px;
+    width: 150px; }
+
+  .indesign-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 70px;
+    display: inline-block; }
+
+  .indesign {
+    margin-left: 10px;
+    height: 150px;
+    width: 150px; } }
+@media (max-width: 425px) {
+  #skills {
+    height: 1510px;
+    font-size: 10px; }
+
+  .skills-summary-one {
+    margin-left: 10%;
+    margin-right: 10%; }
+
+  .skills-summary-one {
+    margin-left: 35px;
+    margin-right: 35px; }
+
+  .html-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 80px;
+    display: inline-block; }
+
+  .html {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    display: inline-block; }
+
+  .css-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 60px;
+    display: inline-block; }
+
+  .css {
+    margin-left: 10px;
+    height: 100px;
+    display: inline-block; }
+
+  .javascript-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 90px;
+    margin-top: 40px;
+    display: inline-block; }
+
+  .javascript {
+    margin-left: 10px;
+    display: inline-block; }
+
+  .jquery-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 35px;
+    display: inline-block; }
+
+  .jquery {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .underscore-container {
+    width: 300px;
+    margin-right: 0px;
+    margin-left: 46px;
+    margin-top: 50px;
+    display: inline-block; }
+
+  .underscore {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .react-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 95px;
+    display: inline-block; }
+
+  .react {
+    display: inline-block; }
+
+  .backbone-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 35px;
+    display: inline-block; }
+
+  .backbone {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .parse-container {
+    width: 300px;
+    margin-right: 0px;
+    margin-left: 46px;
+    margin-top: 15px;
+    display: inline-block; }
+
+  .parse {
+    margin-left: 10px;
+    height: 100px;
+    width: 300px; }
+
+  .sass-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 80px;
+    display: inline-block; }
+
+  .sass {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .git-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 50px;
+    display: inline-block; }
+
+  .git {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px; }
+
+  .handlebars-container {
+    width: 200px;
+    margin-right: 0px;
+    margin-left: 30px;
+    display: inline-block; }
+
+  .handlebars {
+    margin-left: 10px;
+    height: 100px;
+    width: 200px; }
+
+  .photoshop-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: -15px;
+    display: inline-block; }
+
+  .photoshop {
+    margin-left: 0px;
+    height: 150px;
+    width: 150px; }
+
+  .illustrator-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 45px;
+    display: inline-block; }
+
+  .illustrator {
+    margin-left: 20px;
+    height: 150px;
+    width: 150px; }
+
+  .indesign-container {
+    width: 100px;
+    margin-right: 0px;
+    margin-left: 62px;
+    display: inline-block; }
+
+  .indesign {
+    margin-left: 10px;
+    height: 150px;
+    width: 150px; } }
+/**************************************************************************************************
+Portfolio
+**************************************************************************************************/
+@media (max-width: 2650px) {
+  #portfolio {
+    height: 700px; }
+
+  .portfolio-container {
+    margin-left: 29%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-description-one {
+    margin-left: 2%; }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-description-two {
+    margin-left: 2.5%; }
+
+  .project-three {
+    margin-left: 2.5%;
+    width: 300px; } }
+/**************************************************************************************************
+1920
+**************************************************************************************************/
+@media (max-width: 1920px) {
+  #portfolio {
+    height: 700px; }
+
+  .portfolio-container {
+    margin-left: 21.5%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-three {
+    width: 300px;
+    margin-left: 2.5%; } }
+/**************************************************************************************************
+1920
+**************************************************************************************************/
+@media (max-width: 1640px) {
+  #portfolio {
+    height: 700px; }
+
+  .portfolio-container {
+    margin-left: 16.5%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-three {
+    width: 300px;
+    margin-left: 2.5%; } }
+@media (max-width: 1440px) {
+  #portfolio {
+    height: 700px; }
+
+  .portfolio-container {
+    margin-left: 12%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-three {
+    width: 300px;
+    margin-left: 2.5%; } }
+@media (max-width: 1280px) {
+  #portfolio {
+    height: 700px; }
+
+  .portfolio-container {
+    margin-left: 7.5%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-description-two {
+    margin-left: 3%; }
+
+  .project-three {
+    width: 300px;
+    margin-left: 2.5%; }
+
+  .project-description-three {
+    margin-left: 4%; } }
+@media (max-width: 1024px) {
+  #portfolio {
+    height: 700px; }
+
+  .portfolio-container {
+    margin-left: 4%; }
+
+  .project-container {
+    width: 310px; }
+
+  .project-one {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 300px; }
+
+  .project-description-one {
+    margin-left: 3%; }
+
+  .project-two {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 300px; }
+
+  .project-description-two {
+    margin-left: 3%; }
+
+  .project-three {
+    margin-left: 2.5%;
+    width: 300px; }
+
+  .project-description-three {
+    margin-left: 10px; } }
+@media (max-width: 768px) {
+  #portfolio {
+    height: 1610px; }
+
+  .portfolio-container {
+    margin-left: 28%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-description-one {
+    margin-left: 3%;
+    margin-bottom: 60px; }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-description-two {
+    margin-left: 3%;
+    margin-bottom: 60px; }
+
+  .project-three {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-description-three {
+    margin-left: 2.5%; } }
+@media (max-width: 425px) {
+  #portfolio {
+    height: 1510px;
+    font-size: 10px; }
+
+  .portfolio-container {
+    margin-left: 11%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-description-one {
+    margin-left: 3%;
+    margin-bottom: 60px; }
+
+  .project-two {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-description-two {
+    margin-left: 3%;
+    margin-bottom: 60px; }
+
+  .project-three {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 300px; }
+
+  .project-description-three {
+    margin-left: 2.5%; } }
+@media (max-width: 375px) {
+  #portfolio {
+    height: 1510px;
+    font-size: 10px; }
+
+  .portfolio-container {
+    margin-left: 6%; }
+
+  .project-container {
+    width: 380px; }
+
+  .project-one {
+    width: 300px; }
+
+  .project-description-one {
+    margin-left: 3%;
+    margin-bottom: 60px; }
+
+  .project-two {
+    width: 300px; }
+
+  .project-description-two {
+    margin-left: 3%;
+    margin-bottom: 60px; }
+
+  .project-three {
+    width: 300px; }
+
+  .project-description-three {
+    margin-left: 2.5%; } }
 *,
 *::before,
 *::after {
