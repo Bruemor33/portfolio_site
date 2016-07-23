@@ -6,6 +6,11 @@ $grid-gutter-width: 10px;
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'media-queries';
+@import 'heading';
+@import 'navigation';
+@import 'about';
+@import 'skills';
+@import 'portfolio';
 
 
 *,
