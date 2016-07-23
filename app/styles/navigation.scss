@@ -1,0 +1,60 @@
+/**************************************************************************************************
+Navigation
+**************************************************************************************************/
+
+
+
+
+
+@media(max-width: 1920px){
+
+  .modile-nav {
+    display: none;
+  }
+}
+
+
+@media(max-width: 1440px) {
+  .mobile-nav {
+    display: none;
+  }
+  // .navbar a {
+  //   margin-left: 1%;
+  // }
+}
+
+@media(max-width: 1640px){
+  .navbar a {
+
+  }
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media(max-width: 1260px){
+  .modile-nav {
+    display: none;
+  }
+}
+
+@media(max-width: 425px){
+
+  // .navigation {
+  //   z-index: 0;
+  //   width: 0%;
+  // }
+
+  .navbar a {
+    margin-left: 3%;
+  }
+
+  .mobile-nav {
+
+  }
+
+  .navigation-elements li {
+    display: none;
+  }
+
+}

@@ -1,0 +1,128 @@
+/**************************************************************************************************
+Contact
+**************************************************************************************************/
+
+
+
+
+@media(max-width: 2650px){
+
+  .contact-picture {
+    margin-left: 48.5%;
+    // margin-right: 46.5%;
+  }
+  .contact-links {
+    padding-left: 12.5%;
+  }
+  .email-container {
+    padding-left: 15%;
+  }
+  .social-container {
+    padding-left: 5.1%;
+  }
+  .resume-container {
+    padding-left: 4%;
+  }
+}
+
+@media(max-width: 1440px){
+
+  .contact-picture {
+    margin-left: 46.5%;
+    margin-right: 46.5%;
+  }
+  .contact-links {
+    padding-left: 6.5%;
+  }
+  .email-container {
+    padding-left: 15%;
+  }
+  .social-container {
+    padding-left: 5.1%;
+  }
+  .resume-container {
+    padding-left: 6%;
+  }
+}
+
+@media(max-width: 1024px){
+
+  .contact-picture {
+    margin-left: 45.5%;
+    // margin-right: 46.5%;
+  }
+  .contact-links {
+    padding-left: 2%;
+  }
+  .email-container {
+    padding-left: 15%;
+  }
+  .social-container {
+    padding-left: 5.1%;
+  }
+  .resume-container {
+    padding-left: 6%;
+  }
+}
+
+@media(max-width: 768px){
+
+  .contact-picture {
+    margin-left: 44%;
+    // margin-right: 46.5%;
+  }
+  .contact-links {
+    padding-left: 12.5%;
+  }
+  .email-container {
+    padding-left: 2%;
+    display: inline-block;
+  }
+  .social-container {
+    padding-left: 5.1%;
+    position: relative;
+    bottom: 0px;
+    top: 18px;
+    display: inline-block;
+  }
+  .resume-container {
+    padding-left: 2%;
+    display: inline-block;
+  }
+}
+
+@media(max-width: 425px){
+
+  #contact {
+    font-size: 10px;
+  }
+  .contact-picture {
+    margin-left: 46.5%;
+    margin-right: 46.5%;
+  }
+  .contact-links {
+    padding-left: 0;
+  }
+  .email-container {
+    padding-left: 10px;
+    width: 425px;
+    display: block;
+  }
+  .social-container {
+    padding-left: 5.1%;
+    width: 425px;
+    display: block;
+  }
+  .resume-container {
+    padding-left: 0px;
+    width: 425px;
+    display: block;
+  }
+}
+
+
+
+
+/**************************************************************************************************
+the end
+**************************************************************************************************/
