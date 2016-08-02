@@ -67,7 +67,6 @@ a {
 
 .brand {
   display: inline-block;
-  margin-left: 100px;
   margin-top: 3px;
   font-size: 30px;
   font-weight: 300;
@@ -80,7 +79,6 @@ a {
 .navigation-elements {
   display: inline-block;
   float: right;
-  margin-right: 100px;
   margin-top: 13px;
 }
 .navigation-elements li {
@@ -213,7 +211,7 @@ Skills
 .skills-title {
   color: #F2F4F3;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 30px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
@@ -246,6 +244,11 @@ Portfolio
   width: 100%;
   background-color: #F2F4F3;
 }
+
+.github-icon {
+  color: #000;
+}
+
 .portfolio-title {
   color: #7A6263;
   text-align: center;
