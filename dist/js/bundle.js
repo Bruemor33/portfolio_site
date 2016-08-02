@@ -18,7 +18,7 @@ $(document).ready(function(){
   //scroll to top functionality
   $('.scroll-top').on('click', function(event){
     event.preventDefault();
-    $('hrml,body').animate({scrollTop:0}, 'slow')
+    $('html,body').animate({scrollTop:0}, 'slow')
   });
 
   //mobile nav toggle
@@ -32,7 +32,7 @@ $(document).ready(function(){
 
 //scroll function
 function scrollToID(id, speed){
-  var offSet = 50;
+  var offSet = 48;
   var targetOffset = $(id).offset().top - offSet;
   var mainNav = $('#main-nav');
   $('html,body').animate({scrollTop:targetOffset}, speed);
