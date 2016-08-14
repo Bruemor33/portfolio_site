@@ -8126,7 +8126,6 @@ header {
   position: fixed;
   z-index: 10;
   background-color: rgba(10, 9, 8, 0.8);
-  width: 100%;
   height: 50px; }
 
 a {
@@ -8142,7 +8141,8 @@ a {
   margin-top: 3px;
   font-size: 30px;
   font-weight: 300;
-  text-decoration: none; }
+  text-decoration: none;
+  margin-left: 60px; }
 
 .brand a {
   text-decoration: none;
@@ -8164,9 +8164,13 @@ a {
   font-weight: 300;
   font-size: 15px; }
 
+.navigation-contact {
+  margin-right: 60px;
+  display: inline; }
+
 .navigation-item {
   display: inline;
-  margin-left: 35px; }
+  margin-left: 10px; }
 
 .navigation-item:hover {
   color: #000;
@@ -8431,11 +8435,14 @@ Contact
   background-color: #B79E87;
   border-radius: 25px;
   padding-left: 10px;
-  padding-top: 10px; }
+  padding-top: 12px; }
 
 .twitter a {
   text-decoration: none;
   color: #435B68; }
+
+.github-spacing {
+  padding-left: 12px; }
 
 /*******************************************************************************************
 Footer
