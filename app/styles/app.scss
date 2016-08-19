@@ -1,7 +1,7 @@
 
 // Bootstrap Variables
 $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
-$grid-gutter-width: 10px;
+$grid-gutter-width: 0px;
 
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
@@ -12,6 +12,10 @@ $grid-gutter-width: 10px;
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
 }
 
 img {
@@ -51,7 +55,7 @@ header {
   position: fixed;
   z-index: 10;
   background-color: rgba(10, 9, 8, 0.8);
-  
+
   height: 50px;
 }
 
