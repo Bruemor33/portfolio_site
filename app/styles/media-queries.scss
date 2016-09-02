@@ -2289,7 +2289,7 @@ Portfolio
 
 
 
-@media(max-width: 1640px){
+@media(max-width: 1640px) and (min-width: 1441px) {
 
   #portfolio {
     height: 700px;
@@ -2331,7 +2331,7 @@ Portfolio
 
 }
 
-@media(max-width: 1440px){
+@media(max-width: 1440px) and (min-width: 1281px) {
 
   #portfolio {
     height: 700px;
@@ -2372,7 +2372,7 @@ Portfolio
   }
 }
 
-@media(max-width: 1280px) {
+@media(max-width: 1280px) and (min-width: 1024px) {
   #portfolio {
     height: 700px;
 
@@ -2412,7 +2412,7 @@ Portfolio
   }
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1024px) and (min-width: 769px) {
 
   #portfolio {
     height: 700px;
@@ -2452,7 +2452,7 @@ Portfolio
   }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) and (min-width: 426px) {
 
   #portfolio {
     height: 1610px;
@@ -2496,7 +2496,7 @@ Portfolio
   }
 }
 
-@media(max-width: 425px){
+@media(max-width: 425px) and (min-width: 376px) {
 
   #portfolio {
     height: 1510px;
@@ -2507,12 +2507,12 @@ Portfolio
     margin-left: 11%;
   }
   .project-container {
-    width: 380px;
+    width: 320px;
   }
 
   .project-one {
     margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-right: 1%;
     width: 300px;
   }
   .project-description-one {
@@ -2522,7 +2522,7 @@ Portfolio
 
   .project-two {
     margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-right: 1%;
     width: 300px;
   }
   .project-description-two {
@@ -2532,7 +2532,7 @@ Portfolio
 
   .project-three {
     margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-right: 1%;
     width: 300px;
   }
   .project-description-three {
@@ -2551,11 +2551,11 @@ Portfolio
     margin-left: 6%;
   }
   .project-container {
-    width: 380px;
+    width: 280px;
   }
 
   .project-one {
-    // margin-left: 2.5%;
+    margin-left: 13px;
     // // margin-right: 2.5%;
     width: 300px;
   }
@@ -2565,7 +2565,7 @@ Portfolio
   }
 
   .project-two {
-    // margin-left: 2.5%;
+    margin-left: 13px;
     // margin-right: 2.5%;
     width: 300px;
   }
@@ -2575,7 +2575,7 @@ Portfolio
   }
 
   .project-three {
-    // margin-left: 2.5%;
+    margin-left: 13px;
     // margin-right: 2.5%;
     width: 300px;
   }
@@ -2700,7 +2700,7 @@ Contact
     padding-left: 6%;
   }
 
-  
+
 
 }
 
