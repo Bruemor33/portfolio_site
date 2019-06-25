@@ -2,7 +2,7 @@ import '../app/styles/app.scss';
 
 // var $ = require('jquery');
 
-console.log("Hello World!");
+console.log("What What");
 
 
 //Scroll Navigation

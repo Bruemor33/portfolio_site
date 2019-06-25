@@ -149,7 +149,7 @@ main
 
 
 #title {
-  background: linear-gradient(rgba(67, 91, 104, 0.5), rgba(67, 91, 104, 0.5)), url('../images/programming.jpg');
+  background: linear-gradient(rgba(67, 91, 104, 0.5), rgba(67, 91, 104, 0.5)), url('../../dist/imgs/programming.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -210,7 +210,7 @@ Skills
 
 
 #skills {
-  background: linear-gradient(rgba(183, 158, 135, 0.4), rgba(183, 158, 135, 0.5)), url('../images/programming-2.jpg');
+  background: linear-gradient(rgba(183, 158, 135, 0.4), rgba(183, 158, 135, 0.5)), url('../../dist/imgs/programming-2.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -270,7 +270,7 @@ Portfolio
   // width: 360px;
   height: 200px;
   border-radius: 5px;
-  background: url('../images/surf-and-paddle.png');
+  background: url('../../dist/imgs/surf-and-paddle.png');
   background-position: 50% 50%;
   background-size: cover;
   // margin-left: 60px;
@@ -282,7 +282,7 @@ Portfolio
   // width: 360px;
   height: 200px;
   border-radius: 5px;
-  background: url('../images/github-clone.png');
+  background: url('../../dist/imgs/github-clone.png');
   background-position: 50% 50%;
   background-size: cover;
   // margin-left: 27px;
@@ -294,7 +294,7 @@ Portfolio
   // width: 360px;
   height: 200px;
   border-radius: 5px;
-  background: url('../images/tshirts.png');
+  background: url('../../dist/imgs/tshirts.png');
   background-position: 50% 50%;
   background-size: cover;
   // margin-left: -5px;
@@ -349,7 +349,7 @@ Contact
 
 
 #contact {
-  background: linear-gradient(rgba(67, 91, 104, 0.7), rgba(67, 91, 104, 0.7)), url('../images/contact-me.jpg');
+  background: linear-gradient(rgba(67, 91, 104, 0.7), rgba(67, 91, 104, 0.7)), url('../../dist/imgs/contact-me.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -365,7 +365,7 @@ Contact
   font-weight: 300;
 }
 .contact-picture {
-  background: url('../images/headshot.jpg');
+  background: url('../../dist/imgs/headshot.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
