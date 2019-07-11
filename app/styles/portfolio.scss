@@ -7,5 +7,26 @@
 
     h5 {
         margin-top: 10%;
+        color: #7A6263;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+    }
+
+    p {
+        color: #7A6263;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+    }
+
+    .project-description {
+        height: 115px;
+    }
+
+    .github-icon {
+        color: #7A6263;
+
+        &:hover {
+            color: #5d7f9e;
+        }
     }
 }

@@ -5,6 +5,7 @@ $grid-gutter-width: 0px;
 // Import Bootstrap
 // @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'media-queries.scss';
+@import 'about.scss';
 @import 'skills.scss';
 @import 'heading.scss';
 @import 'portfolio.scss';
@@ -15,10 +16,6 @@ $grid-gutter-width: 0px;
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-body {
-  max-width: 100%;
 }
 
 img {
@@ -38,6 +35,7 @@ a {
 }
 .row {
   margin-left: 0;
+  margin-right: 0;
 }
 
 
@@ -198,8 +196,8 @@ About
 .about-summary {
   color: #7A6263;
   text-align: center;
-  // margin-left: 250px;
-  // margin-right: 250px;
+  margin-left: 15%;
+  margin-right: 15%;
   padding-top: 50px;
   border-top: 1px solid #B79E87;
   font-family: 'Raleway', sans-serif;
@@ -229,12 +227,12 @@ Skills
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
-.skills-summary-one {
+.skills-summary {
   color: #F2F4F3;
   text-align: center;
   margin-top: 50px;
-  // margin-left: 250px;
-  // margin-right: 250px;
+  margin-left: 15%;
+  margin-right: 15%;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
@@ -271,37 +269,38 @@ Portfolio
   font-weight: 300;
 }
 .project-one {
-  width: 360px;
+  width: 300px;
   height: 200px;
   border-radius: 5px;
-  background: url('../../dist/imgs/surf-and-paddle.png');
+  background: url('../../dist/imgs/lrdg.png');
   background-position: 50% 50%;
   background-size: cover;
-  // margin-left: 60px;
+  margin-left: 6%;
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
 }
 .project-two {
-  // width: 360px;
+  width: 300px;
   height: 200px;
   border-radius: 5px;
-  background: url('../../dist/imgs/github-clone.png');
+  background: url('../../dist/imgs/rv-covers.png');
   background-position: 50% 50%;
   background-size: cover;
-  // margin-left: 27px;
+  margin-left: 6%;
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
 }
 .project-three {
-  // width: 360px;
+  align-content: center;
+  width: 300px;
   height: 200px;
   border-radius: 5px;
-  background: url('../../dist/imgs/tshirts.png');
+  background: url('../../dist/imgs/car-covers.png');
   background-position: 50% 50%;
   background-size: cover;
-  // margin-left: -5px;
+  margin-left: 6%;
   -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
@@ -357,7 +356,6 @@ Contact
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 680px;
   width: 100%;
 }
 .contact-title {
@@ -391,16 +389,8 @@ Contact
   text-decoration: none;
   color: #F2F4F3;
 }
-.email-link {
-  margin-left: 50px;
-}
 .contact-email {
   margin-top: 10px;
-}
-
-.social-container {
-  // width: 300px;
-  // display: inline-block;
 }
 
 .resume-container {
@@ -412,7 +402,6 @@ Contact
 .resume-container a {
   text-decoration: none;
   color: #f2f4f3;
-  padding-left: 12px;
 }
 .contact-resume {
   font-family: 'Raleway', sans-serif;
@@ -420,15 +409,15 @@ Contact
   margin-top: 10px;
   color: #F2F4F3;
 }
-.github {
+.twitter {
   display: inline-block;
   margin-right: 30px;
   height: 50px;
   width: 50px;
   background-color: #B79E87;
   border-radius: 25px;
-  padding-left: 13px;
-  padding-top: 12px;
+  padding-left: 2px;
+  padding-top: 10px;
 }
 .github a {
   text-decoration: none;
@@ -441,30 +430,24 @@ Contact
   width: 50px;
   background-color: #B79E87;
   border-radius: 25px;
-  padding-left: 13px;
-  padding-top: 10px;
+  padding-left: 1px;
+  padding-top: 9px;
 }
 .linkedin a {
   text-decoration: none;
   color: #435B68;
 }
-.twitter {
+.github {
   display: inline-block;
   height: 50px;
   width: 50px;
   background-color: #B79E87;
   border-radius: 25px;
-  padding-left: 10px;
-  padding-top: 12px;
+  padding-top: 9px;
 }
 .twitter a {
   text-decoration: none;
   color: #435B68;
-}
-
-.github-spacing {
-  padding-left: 12px;
-
 }
 
 
