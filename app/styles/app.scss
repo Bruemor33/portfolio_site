@@ -1,16 +1,14 @@
-
 // Bootstrap Variables
 $grid-gutter-width: 0px;
 
 // Import Bootstrap
 // @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
-@import 'media-queries.scss';
-@import 'about.scss';
-@import 'skills.scss';
-@import 'heading.scss';
-@import 'portfolio.scss';
-@import 'contact.scss';
-
+@import "media-queries.scss";
+@import "about.scss";
+@import "skills.scss";
+@import "heading.scss";
+@import "portfolio.scss";
+@import "contact.scss";
 
 *,
 *::before,
@@ -38,18 +36,14 @@ a {
   margin-right: 0;
 }
 
-
 /*******************************************************************************************
 Header
 *******************************************************************************************/
-
-
 
 header {
   width: 100%;
   padding-left: 0;
   padding-right: 0;
-
 }
 
 .navigation {
@@ -63,7 +57,7 @@ header {
 a {
   text-decoration: none;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .scroll-link {
@@ -80,7 +74,7 @@ a {
 }
 .brand a {
   text-decoration: none;
-  color: #F2F4F3;
+  color: #f2f4f3;
 }
 .navigation-elements {
   display: inline-block;
@@ -94,7 +88,7 @@ a {
 }
 .navigation-elements a {
   text-decoration: none;
-  color: #F2F4F3;
+  color: #f2f4f3;
   font-weight: 300;
   font-size: 15px;
 }
@@ -110,7 +104,7 @@ a {
 }
 .navigation-item:hover {
   color: #000;
-  background-color: #F2F4F3;
+  background-color: #f2f4f3;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 18px;
@@ -131,27 +125,17 @@ a {
   font-weight: 200;
 }
 
-
-
-
 /*******************************************************************************************
 main
 *******************************************************************************************/
 
-
-
-//
-// #parallax {
-//   perspective: 1px;
-//   height: 100vh;
-//   overflow-x: hidden;
-//   overflow-y: auto;
-// }
-
-
+.project-img {
+  margin: 0 auto 0 auto;
+}
 
 #title {
-  background: linear-gradient(rgba(67, 91, 104, 0.5), rgba(67, 91, 104, 0.5)), url('../../dist/imgs/programming.jpg');
+  background: linear-gradient(rgba(67, 91, 104, 0.5), rgba(67, 91, 104, 0.5)),
+    url("../../dist/imgs/programming.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,57 +146,53 @@ main
   text-align: center;
   // margin-top: 270px;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
 .title-description {
   text-align: center;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 25px;
 }
-
-
 
 /*******************************************************************************************
 About
 *******************************************************************************************/
 
-
-
 #about {
   // height: 600px;
   width: 100%;
-  background-color: #F2F4F3;
+  background-color: #f2f4f3;
 }
 .about-title {
-  color: #7A6263;
+  color: #7a6263;
   text-align: center;
   // margin-top: 100px;
   margin-bottom: 50px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .about-summary {
-  color: #7A6263;
+  color: #7a6263;
   text-align: center;
   margin-left: 15%;
   margin-right: 15%;
   padding-top: 50px;
-  border-top: 1px solid #B79E87;
-  font-family: 'Raleway', sans-serif;
+  border-top: 1px solid #b79e87;
+  font-family: "Raleway", sans-serif;
 }
-
-
 
 /*******************************************************************************************
 Skills
 *******************************************************************************************/
 
-
-
 #skills {
-  background: linear-gradient(rgba(183, 158, 135, 0.4), rgba(183, 158, 135, 0.5)), url('../../dist/imgs/programming-2.jpg');
+  background: linear-gradient(
+      rgba(183, 158, 135, 0.4),
+      rgba(183, 158, 135, 0.5)
+    ),
+    url("../../dist/imgs/programming-2.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -220,40 +200,34 @@ Skills
   width: 100%;
 }
 .skills-title {
-  color: #F2F4F3;
+  color: #f2f4f3;
   text-align: center;
   margin-top: 80px;
   margin-bottom: 30px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
 .skills-summary {
-  color: #F2F4F3;
+  color: #f2f4f3;
   text-align: center;
   margin-top: 50px;
   margin-left: 15%;
   margin-right: 15%;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
 .skill-logos {
   margin-top: 80px;
 }
 
-
-
-
 /*******************************************************************************************
 Portfolio
 *******************************************************************************************/
 
-
-
-
 #portfolio {
   // height: 680px;
   width: 100%;
-  background-color: #F2F4F3;
+  background-color: #f2f4f3;
 }
 
 .github-icon {
@@ -261,78 +235,75 @@ Portfolio
 }
 
 .portfolio-title {
-  color: #7A6263;
+  color: #7a6263;
   text-align: center;
   margin-top: 60px;
   margin-bottom: 40px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
 .project-one {
   width: 300px;
   height: 200px;
   border-radius: 5px;
-  background: url('../../dist/imgs/lrdg.png');
+  background: url("../../dist/imgs/lrdg.png");
   background-position: 50% 50%;
   background-size: cover;
-  margin-left: 6%;
-  -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
 }
 .project-two {
   width: 300px;
   height: 200px;
   border-radius: 5px;
-  background: url('../../dist/imgs/boat-covers-direct.png');
+  background: url("../../dist/imgs/boat-covers-direct.png");
   background-position: 50% 50%;
   background-size: cover;
-  margin-left: 6%;
-  -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
 }
 .project-three {
   align-content: center;
   width: 300px;
   height: 200px;
   border-radius: 5px;
-  background: url('../../dist/imgs/car-covers.png');
+  background: url("../../dist/imgs/car-covers.png");
   background-position: 50% 50%;
   background-size: cover;
-  margin-left: 6%;
-  -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
-  box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5);
 }
 .project-description-one {
-  color: #7A6263;
+  color: #7a6263;
   margin-top: 30px;
   // margin-left: 90px;
   // margin-left: 20%;
   width: 300px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
 .project-description-two {
-  color: #7A6263;
+  color: #7a6263;
   margin-top: 30px;
   // margin-left: 58px;
   // margin-left: 13%;
   width: 300px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
 .project-description-three {
-  color: #7A6263;
+  color: #7a6263;
   margin-top: 30px;
   // margin-left: 28px;
   // margin-left: 6%;
   width: 300px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
 .github-spacing {
@@ -343,31 +314,28 @@ Portfolio
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-
-
 /*******************************************************************************************
 Contact
 *******************************************************************************************/
 
-
-
 #contact {
-  background: linear-gradient(rgba(67, 91, 104, 0.7), rgba(67, 91, 104, 0.7)), url('../../dist/imgs/contact-me.jpg');
+  background: linear-gradient(rgba(67, 91, 104, 0.7), rgba(67, 91, 104, 0.7)),
+    url("../../dist/imgs/contact-me.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
 }
 .contact-title {
-  color: #F2F4F3;
+  color: #f2f4f3;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 40px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
 .contact-picture {
-  background: url('../../dist/imgs/headshot.jpg');
+  background: url("../../dist/imgs/headshot.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -384,10 +352,10 @@ Contact
   // display: inline-block;
 }
 .email-container a {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   text-decoration: none;
-  color: #F2F4F3;
+  color: #f2f4f3;
 }
 .contact-email {
   margin-top: 10px;
@@ -404,68 +372,59 @@ Contact
   color: #f2f4f3;
 }
 .contact-resume {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   margin-top: 10px;
-  color: #F2F4F3;
+  color: #f2f4f3;
 }
 .twitter {
   display: inline-block;
   margin-right: 30px;
   height: 50px;
   width: 50px;
-  background-color: #B79E87;
+  background-color: #b79e87;
   border-radius: 25px;
   padding-left: 2px;
   padding-top: 10px;
 }
 .github a {
   text-decoration: none;
-  color: #435B68;
+  color: #435b68;
 }
 .linkedin {
   display: inline-block;
   margin-right: 30px;
   height: 50px;
   width: 50px;
-  background-color: #B79E87;
+  background-color: #b79e87;
   border-radius: 25px;
   padding-left: 1px;
   padding-top: 9px;
 }
 .linkedin a {
   text-decoration: none;
-  color: #435B68;
+  color: #435b68;
 }
 .github {
   display: inline-block;
   height: 50px;
   width: 50px;
-  background-color: #B79E87;
+  background-color: #b79e87;
   border-radius: 25px;
   padding-top: 9px;
 }
 .twitter a {
   text-decoration: none;
-  color: #435B68;
+  color: #435b68;
 }
-
-
-
 
 /*******************************************************************************************
 Footer
 *******************************************************************************************/
 
-
-
-
 .footer-copywrite {
   text-align: center;
-
 }
-
-
 
 /*******************************************************************************************
 The End
