@@ -1,19 +1,20 @@
 // Bootstrap Variables
 $grid-gutter-width: 0px;
 
-// Import Bootstrap
-// @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
-@import "media-queries.scss";
 @import "about.scss";
 @import "skills.scss";
 @import "heading.scss";
-@import "portfolio.scss";
 @import "contact.scss";
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
 }
 
 img {
@@ -46,92 +47,9 @@ header {
   padding-right: 0;
 }
 
-.navigation {
-  position: fixed;
-  z-index: 10;
-  background-color: rgba(10, 9, 8, 0.8);
-
-  height: 50px;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-}
-
-.scroll-link {
-  display: inline;
-}
-
-.brand {
-  display: inline-block;
-  margin-top: 3px;
-  font-size: 30px;
-  font-weight: 300;
-  text-decoration: none;
-  margin-left: 60px;
-}
-.brand a {
-  text-decoration: none;
-  color: #f2f4f3;
-}
-.navigation-elements {
-  display: inline-block;
-  float: right;
-  margin-top: 13px;
-}
-.navigation-elements li {
-  list-style: none;
-  text-decoration: none;
-  color: #fff;
-}
-.navigation-elements a {
-  text-decoration: none;
-  color: #f2f4f3;
-  font-weight: 300;
-  font-size: 15px;
-}
-
-.navigation-contact {
-  margin-right: 60px;
-  display: inline;
-}
-
-.navigation-item {
-  display: inline;
-  margin-left: 10px;
-}
-.navigation-item:hover {
-  color: #000;
-  background-color: #f2f4f3;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 18px;
-  padding-bottom: 18px;
-}
-.navigation-item a:hover {
-  color: #000;
-}
-
-.page-section {
-  width: 100%;
-  height: 680px;
-}
-.page-section h1 {
-  font-size: 4em;
-}
-.page-section p {
-  font-weight: 200;
-}
-
 /*******************************************************************************************
 main
 *******************************************************************************************/
-
-.project-img {
-  margin: 0 auto 0 auto;
-}
 
 #title {
   background: linear-gradient(rgba(67, 91, 104, 0.5), rgba(67, 91, 104, 0.5)),
@@ -146,14 +64,10 @@ main
   text-align: center;
   // margin-top: 270px;
   color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
 }
 .title-description {
   text-align: center;
   color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
   font-size: 25px;
 }
 
@@ -162,16 +76,13 @@ About
 *******************************************************************************************/
 
 #about {
-  // height: 600px;
   width: 100%;
   background-color: #f2f4f3;
 }
 .about-title {
   color: #7a6263;
   text-align: center;
-  // margin-top: 100px;
   margin-bottom: 50px;
-  font-family: "Raleway", sans-serif;
 }
 .about-summary {
   color: #7a6263;
@@ -180,7 +91,6 @@ About
   margin-right: 15%;
   padding-top: 50px;
   border-top: 1px solid #b79e87;
-  font-family: "Raleway", sans-serif;
 }
 
 /*******************************************************************************************
@@ -196,7 +106,6 @@ Skills
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  // height: 680px;
   width: 100%;
 }
 .skills-title {
@@ -204,8 +113,6 @@ Skills
   text-align: center;
   margin-top: 80px;
   margin-bottom: 30px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
 }
 .skills-summary {
   color: #f2f4f3;
@@ -213,8 +120,6 @@ Skills
   margin-top: 50px;
   margin-left: 15%;
   margin-right: 15%;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
 }
 .skill-logos {
   margin-top: 80px;
@@ -225,7 +130,7 @@ Portfolio
 *******************************************************************************************/
 
 #portfolio {
-  // height: 680px;
+  min-height: 760px;
   width: 100%;
   background-color: #f2f4f3;
 }
@@ -239,13 +144,16 @@ Portfolio
   text-align: center;
   margin-top: 60px;
   margin-bottom: 40px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
 }
-.project-one {
+
+.portfolio-images {
   width: 300px;
   height: 200px;
   border-radius: 5px;
+  margin: 0 auto 0 auto;
+}
+
+.project-one-image {
   background: url("../../dist/imgs/lrdg.png");
   background-position: 50% 50%;
   background-size: cover;
@@ -253,10 +161,7 @@ Portfolio
   -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
 }
-.project-two {
-  width: 300px;
-  height: 200px;
-  border-radius: 5px;
+.project-two-image {
   background: url("../../dist/imgs/boat-covers-direct.png");
   background-position: 50% 50%;
   background-size: cover;
@@ -264,48 +169,41 @@ Portfolio
   -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
 }
-.project-three {
-  align-content: center;
-  width: 300px;
-  height: 200px;
-  border-radius: 5px;
+.project-three-image {
   background: url("../../dist/imgs/car-covers.png");
   background-position: 50% 50%;
   background-size: cover;
-  -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
 }
-.project-description-one {
-  color: #7a6263;
-  margin-top: 30px;
-  // margin-left: 90px;
-  // margin-left: 20%;
-  width: 300px;
+
+.portfolio-content {
   text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
+  margin-bottom: 50px;
+
+  h5 {
+    margin-top: 10%;
+    color: #7a6263;
+  }
+
+  p {
+    color: #7a6263;
+  }
+
+  .project-description {
+    height: 115px;
+  }
+
+  .github-icon {
+    color: #7a6263;
+
+    &:hover {
+      color: #5d7f9e;
+    }
+  }
 }
-.project-description-two {
-  color: #7a6263;
-  margin-top: 30px;
-  // margin-left: 58px;
-  // margin-left: 13%;
-  width: 300px;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-}
-.project-description-three {
-  color: #7a6263;
-  margin-top: 30px;
-  // margin-left: 28px;
-  // margin-left: 6%;
-  width: 300px;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-}
+
 .github-spacing {
   margin-bottom: 20px;
 }
@@ -331,8 +229,6 @@ Contact
   text-align: center;
   margin-top: 100px;
   margin-bottom: 40px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
 }
 .contact-picture {
   background: url("../../dist/imgs/headshot.jpg");
@@ -342,18 +238,12 @@ Contact
   height: 100px;
   width: 100px;
   border-radius: 50px;
-  // margin-left: 590px;
   margin-bottom: 60px;
 }
 .email-container {
-  // padding-left: 280px;
   padding-top: 10px;
-  // width: 150px;
-  // display: inline-block;
 }
 .email-container a {
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
   text-decoration: none;
   color: #f2f4f3;
 }
@@ -362,18 +252,13 @@ Contact
 }
 
 .resume-container {
-  // padding-left: 85px;
   margin-top: 10px;
-  // width: 150px;
-  // display: inline-block;
 }
 .resume-container a {
   text-decoration: none;
   color: #f2f4f3;
 }
 .contact-resume {
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
   margin-top: 10px;
   color: #f2f4f3;
 }
